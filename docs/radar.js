@@ -49,16 +49,18 @@ function radar_visualization(config) {
 
   const rings = [
     { radius: 130 },
-    { radius: 220 },
-    { radius: 310 },
-    { radius: 400 }
+    { radius: 200 },
+    { radius: 270 },
+    { radius: 340 },
+    { radius: 410 },
+    { radius: 480 }
   ];
 
   const title_offset =
-    { x: -675, y: -420 };
+    { x: -675, y: -600 };
 
   const footer_offset =
-    { x: -675, y: 420 };
+    { x: -675, y: 600 };
 
   const legend_offset = [
     { x: 450, y: 90 },
@@ -154,10 +156,10 @@ function radar_visualization(config) {
   }
 
   // partition entries according to segments
-  var segmented = new Array(4);
-  for (var quadrant = 0; quadrant < 4; quadrant++) {
-    segmented[quadrant] = new Array(4);
-    for (var ring = 0; ring < 4; ring++) {
+  var segmented = new Array(quadrants.length);
+  for (var quadrant = 0; quadrant < quadrants.length; quadrant++) {
+    segmented[quadrant] = new Array(rings.length);
+    for (var ring = 0; ring < rings.length; ring++) {
       segmented[quadrant][ring] = [];
     }
   }
@@ -169,7 +171,7 @@ function radar_visualization(config) {
   // assign unique sequential id to each entry
   var id = 1;
   for (var quadrant of [2,3,1,0]) {
-    for (var ring = 0; ring < 4; ring++) {
+    for (var ring = 0; ring < rings.length; ring++) {
       var entries = segmented[quadrant][ring];
       entries.sort(function(a,b) { return a.label.localeCompare(b.label); })
       for (var i=0; i<entries.length; i++) {
@@ -184,13 +186,12 @@ function radar_visualization(config) {
 
   function viewbox(quadrant) {
     return [
-      Math.max(0, quadrants[quadrant].factor_x * 400) - 420,
-      Math.max(0, quadrants[quadrant].factor_y * 400) - 420,
-      440,
-      440
+      Math.max(0, quadrants[quadrant].factor_x * 580) - 600,
+      Math.max(0, quadrants[quadrant].factor_y * 580) - 600,
+      620,
+      620
     ].join(" ");
   }
-
   var svg = d3.select("svg#" + config.svg_id)
     .style("background-color", config.colors.background)
     .attr("width", config.width)
@@ -207,13 +208,13 @@ function radar_visualization(config) {
 
   // draw grid lines
   grid.append("line")
-    .attr("x1", 0).attr("y1", -400)
-    .attr("x2", 0).attr("y2", 400)
+    .attr("x1", 0).attr("y1", -580)
+    .attr("x2", 0).attr("y2", 580)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
   grid.append("line")
-    .attr("x1", -400).attr("y1", 0)
-    .attr("x2", 400).attr("y2", 0)
+    .attr("x1", -580).attr("y1", 0)
+    .attr("x2", 580).attr("y2", 0)
     .style("stroke", config.colors.grid)
     .style("stroke-width", 1);
 
@@ -255,7 +256,7 @@ function radar_visualization(config) {
   }
 
   function legend_transform(quadrant, ring, index=null) {
-    var dx = ring < 2 ? 0 : 120;
+    var dx = ring < 2 ? 0 : (ring < 4 ? 120 : 240);
     var dy = (index == null ? -16 : index * 12);
     if (ring % 2 === 1) {
       dy = dy + 36 + segmented[quadrant][ring-1].length * 12;
@@ -286,7 +287,7 @@ function radar_visualization(config) {
 
     // legend
     var legend = radar.append("g");
-    for (var quadrant = 0; quadrant < 4; quadrant++) {
+    for (var quadrant = 0; quadrant < quadrants.length; quadrant++) {
       legend.append("text")
         .attr("transform", translate(
           legend_offset[quadrant].x,
@@ -295,7 +296,7 @@ function radar_visualization(config) {
         .text(config.quadrants[quadrant].name)
         .style("font-family", "Arial, Helvetica")
         .style("font-size", "18");
-      for (var ring = 0; ring < 4; ring++) {
+      for (var ring = 0; ring < rings.length; ring++) {
         legend.append("text")
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
@@ -314,6 +315,7 @@ function radar_visualization(config) {
               .style("font-size", "11")
               .on("mouseover", function(d) { showBubble(d); highlightLegendItem(d); })
               .on("mouseout", function(d) { hideBubble(d); unhighlightLegendItem(d); });
+      }
       }
     }
   }
