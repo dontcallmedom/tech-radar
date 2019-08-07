@@ -19,6 +19,27 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
+const parseDate = d3.timeParse("%Y-%m-%d");
+
+var durationColorScheme = d3.scaleLinear().domain([0, 6, 24])
+    .range(["#afa", "yellow","red"]);
+
+const durationColor = (d1, d2) => {
+  return durationColorScheme((d2-d1) / (30*3600*24*1000));
+};
+
+
+const contrastedTextColor = bgcolor => {
+  bg_rgb = parseInt('0x' + bgcolor.slice(1));
+  bg_r = (bg_rgb >> 16) & 0xff;
+  bg_g = (bg_rgb >>  8) & 0xff;
+  bg_b = (bg_rgb >>  0) & 0xff;
+  luma = 0.2126 * bg_r + 0.7152 * bg_g + 0.0722 * bg_b ;// ITU-R BT.709
+  if (luma < 128)
+    return 'ffffff';
+  else
+    return '000000';
+}
 
 
 function radar_visualization(config) {
@@ -151,8 +172,7 @@ function radar_visualization(config) {
     var point = entry.segment.random();
     entry.x = point.x;
     entry.y = point.y;
-    entry.color = entry.active || config.print_layout ?
-      config.rings[entry.ring].color : config.colors.inactive;
+    entry.color= entry.lastActiveAt ? durationColor(parseDate(entry.lastActiveAt.slice(0,10)), new Date()) : "grey";
   }
 
   // partition entries according to segments
@@ -241,14 +261,14 @@ function radar_visualization(config) {
       .style("fill", "none")
       .style("stroke", config.colors.grid)
       .style("stroke-width", 1);
-    if (config.print_layout) {
+    if (true || config.print_layout) {
       grid.append("text")
         .text(config.rings[i].name)
-        .attr("y", -rings[i].radius + 62)
-        .attr("text-anchor", "middle")
-        .style("fill", "#e5e5e5")
+        .attr("y", rings[i].radius - 20)
+        .attr("text-anchor", "left")
+        .style("fill", "#a5a5a5")
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", 42)
+        .style("font-size", 12)
         .style("font-weight", "bold")
         .style("pointer-events", "none")
         .style("user-select", "none");
@@ -268,7 +288,7 @@ function radar_visualization(config) {
   }
 
   // draw title and legend (only in print layout)
-  if (config.print_layout) {
+  if (true || config.print_layout) {
 
     // title
     radar.append("text")
@@ -296,6 +316,7 @@ function radar_visualization(config) {
         .text(config.quadrants[quadrant].name)
         .style("font-family", "Arial, Helvetica")
         .style("font-size", "18");
+      if (config.print_layout) {
       for (var ring = 0; ring < rings.length; ring++) {
         legend.append("text")
           .attr("transform", legend_transform(quadrant, ring))
@@ -346,7 +367,7 @@ function radar_visualization(config) {
     .style("fill", "#333");
 
   function showBubble(d) {
-    if (d.active || config.print_layout) {
+    if (true || d.active || config.print_layout) {
       d3.select(this).attr("aria-labelledby", "bubbletext");
       var tooltip = d3.select("#bubble text")
         .text(d.label);
@@ -407,40 +428,118 @@ function radar_visualization(config) {
     blip.append("description")
       .text(d => d.label + " is in " + config.rings[d.ring].name + (d.lastMovedAt ? " since " + d.lastMovedAt : "" ) + (d.assignees.length ? " and is assigned to " + d.assignees.join(", ") : ""));
     // blip link
-    if (!config.print_layout && d.active && d.hasOwnProperty("link")) {
+    if (d.hasOwnProperty("link")) {
       blip = blip.append("a")
+        .attr("target", "_blank")
         .attr("xlink:href", d.link);
     }
 
     // blip shape
+    const warning = d.assignees.length === 0 && d.ring < 4;
+    const stroke =  warning ? 'red' : 'black';
+    const strokeWidth = warning ? 2 : 1;
+    const w = 8 + d.comments.length;
+    const y1 = Math.round(5 * (18 + d.comments.length) / 18);
+    const y2 = Math.round(13 * (18 + d.comments.length) / 18);
     if (d.moved > 0) {
       blip.append("path")
-        .attr("d", "M -11,5 11,5 0,-13 z") // triangle pointing up
-        .style("fill", d.color);
+        .attr("d", "M -" + w + "," + y1 + " " + w + "," + y1 + " 0,-" + y2 + " z") // triangle pointing up
+        .style("fill", d.color)
+        .attr("stroke", stroke)
+        .attr("stroke-width", strokeWidth);
     } else if (d.moved < 0) {
       blip.append("path")
-        .attr("d", "M -11,-5 11,-5 0,13 z") // triangle pointing down
-        .style("fill", d.color);
+        .attr("d", "M -" + w + ",-" + y1 + " " + w + ",-" + y1 + " 0," + y2 + " z") // triangle pointing down
+        .style("fill", d.color)
+        .attr("stroke", stroke)
+        .attr("stroke-width", strokeWidth);
     } else {
       blip.append("circle")
-        .attr("r", 9)
-        .attr("fill", d.color);
+        .attr("r", 9 + d.comments.length)
+        .attr("fill", d.color)
+        .attr("stroke", stroke)
+        .attr("stroke-width", strokeWidth);
     }
 
     // blip text
-    if (d.active || config.print_layout) {
-      var blip_text = config.print_layout ? d.id : d.label.match(/[a-z]/i);
+    if (true || d.active || config.print_layout) {
+      var blip_text = config.print_layout ? d.id : d.number;
       blip.append("text")
         .text(blip_text)
         .attr("y", 3)
         .attr("text-anchor", "middle")
-        .style("fill", "#fff")
+        .style("fill", d => contrastedTextColor(d.color))
         .style("font-family", "Arial, Helvetica")
         .style("font-size", function(d) { return blip_text.length > 2 ? "8" : "9"; })
         .style("pointer-events", "none")
         .style("user-select", "none");
     }
   });
+
+  var control = document.getElementById("control");
+  const toggleLab = document.createElement("label");
+  const toggleInp = document.createElement("input");
+  toggleInp.type = "checkbox";
+  toggleInp.checked = true;
+  toggleLab.appendChild(toggleInp);
+  toggleLab.appendChild(document.createTextNode("Toggle all"));
+  control.appendChild(toggleLab);
+  toggleInp.addEventListener("change", e =>
+                             [...control.querySelectorAll("input")].forEach(inp => {
+                               inp.checked = e.target.checked;
+                               inp.dispatchEvent(new Event("input"));
+                             })
+                            );
+  const domainVisibility = {};
+  for (d of domains) {
+    domainVisibility[d] = true;
+    const lab = document.createElement("label");
+    const inp = document.createElement("input");
+    inp.type = "checkbox";
+    inp.checked = true;
+    inp.value = d;
+    lab.appendChild(inp);
+    lab.appendChild(document.createTextNode(d));
+    control.appendChild(lab);
+    const bgColor = '#' + config.entries.find(e => (e.labels || []).find(l => l.name === d)).labels.find(l => l.name === d).color;
+    lab.style.backgroundColor =  bgColor;
+    lab.style.color = contrastedTextColor(bgColor);
+    inp.addEventListener("input", e => {
+      if (e.target.checked) {
+        domainVisibility[e.target.value] = true;
+      } else {
+        domainVisibility[e.target.value] = false;
+      }
+      blips.each(function(b) {
+        var blip = d3.select(this);
+        if (b.labels.some(l => Object.keys(domainVisibility).filter(d => domainVisibility[d]).includes(l.name))) {
+          blip.attr("style", "visibility: visible");
+        } else {
+          blip.attr("style", "visibility: hidden");
+        }
+      })
+    });
+    lab.addEventListener("mouseout", e => {
+      blips.each(function(b) {
+        var blip = d3.select(this);
+        blip.classed("dimmed", false);
+      })
+
+    });
+    lab.addEventListener("mouseover", e => {
+      const domain = e.target.value || e.target.querySelector("input").value;
+      blips.each(function(b) {
+        var blip = d3.select(this);
+        if (b.labels.find(l => l.name === domain)) {
+          blip.classed("dimmed", false);
+        } else {
+          blip.classed("dimmed", true);
+        }
+      })
+
+    });
+  }
+
 
   // make sure that blips stay inside their segment
   function ticked() {

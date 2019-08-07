@@ -17,3 +17,7 @@ td {
   vertical-align: top;
   padding-right: 60px;
 }
+.dimmed { opacity: 0.2;}
+#control { width: 8em}
+#control label { display: block;}
+main { display: grid; align-items: center; grid-template-columns: 8em 1fr;}
