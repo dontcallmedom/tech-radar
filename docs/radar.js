@@ -313,8 +313,8 @@ function radar_visualization(config) {
               .text(function(d, i) { return d.id + ". " + d.label; })
               .style("font-family", "Arial, Helvetica")
               .style("font-size", "11")
-              .on("mouseover", function(d) { showBubble(d); highlightLegendItem(d); })
-              .on("mouseout", function(d) { hideBubble(d); unhighlightLegendItem(d); });
+              .on("mouseover", showBubble)
+              .on("mouseout", hideBubble);
       }
       }
     }
@@ -337,6 +337,7 @@ function radar_visualization(config) {
     .attr("ry", 4)
     .style("fill", "#333");
   bubble.append("text")
+    .attr("id", "bubbletext")
     .style("font-family", "sans-serif")
     .style("font-size", "10px")
     .style("fill", "#fff");
@@ -346,6 +347,7 @@ function radar_visualization(config) {
 
   function showBubble(d) {
     if (d.active || config.print_layout) {
+      d3.select(this).attr("aria-labelledby", "bubbletext");
       var tooltip = d3.select("#bubble text")
         .text(d.label);
       var bbox = tooltip.node().getBBox();
@@ -360,22 +362,27 @@ function radar_visualization(config) {
       d3.select("#bubble path")
         .attr("transform", translate(bbox.width / 2 - 5, 3));
     }
+    highlightLegendItem(d);
   }
 
   function hideBubble(d) {
+    d3.select(this).attr("aria-labelledby", null);
     var bubble = d3.select("#bubble")
       .attr("transform", translate(0,0))
-      .style("opacity", 0);
+        .style("opacity", 0);
+    unhighlightLegendItem(d);
   }
 
   function highlightLegendItem(d) {
     var legendItem = document.getElementById("legendItem" + d.id);
+    if (!legendItem) return;
     legendItem.setAttribute("filter", "url(#solid)");
     legendItem.setAttribute("fill", "white");
   }
 
   function unhighlightLegendItem(d) {
     var legendItem = document.getElementById("legendItem" + d.id);
+    if (!legendItem) return;
     legendItem.removeAttribute("filter");
     legendItem.removeAttribute("fill");
   }
@@ -387,13 +394,18 @@ function radar_visualization(config) {
       .append("g")
         .attr("class", "blip")
         .attr("transform", function(d, i) { return legend_transform(d.quadrant, d.ring, i); })
-        .on("mouseover", function(d) { showBubble(d); highlightLegendItem(d); })
-        .on("mouseout", function(d) { hideBubble(d); unhighlightLegendItem(d); });
+        .on("focusin", showBubble)
+        .on("focusout", hideBubble)
+        .on("mouseover", showBubble)
+        .on("mouseout", hideBubble);
 
   // configure each blip
   blips.each(function(d) {
     var blip = d3.select(this);
-
+    blip.append("title")
+      .text(d => d.label);
+    blip.append("description")
+      .text(d => d.label + " is in " + config.rings[d.ring].name + (d.lastMovedAt ? " since " + d.lastMovedAt : "" ) + (d.assignees.length ? " and is assigned to " + d.assignees.join(", ") : ""));
     // blip link
     if (!config.print_layout && d.active && d.hasOwnProperty("link")) {
       blip = blip.append("a")
