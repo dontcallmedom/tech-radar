@@ -1,6 +1,7 @@
 [
   {
     "number": 103,
+    "body": "<p>The Privacy IG has been out of charter since Dec 2016, and the charter does not reflect current team contact(s).  The IG is functional(!), so I suggest we extend the charter, updating the contact(s).</p>",
     "quadrant": 0,
     "ring": 0,
     "label": "Privacy IG",
@@ -32,6 +33,7 @@
   },
   {
     "number": 177,
+    "body": "<p>The Working Group is updating its charter:<br>\n<a rel=\"nofollow\" href=\"https://w3c.github.io/charter-timed-text/\">https://w3c.github.io/charter-timed-text/</a></p>\n<p>Most notably:</p>\n<ul>\n<li>2D, 3D, 360º, AR and VR</li>\n<li>Live captioning</li>\n<li>profile for audio descriptions</li>\n</ul>",
     "quadrant": 0,
     "ring": 0,
     "label": "Timed Text WG (TTML, WebVTT)",
@@ -86,6 +88,7 @@
   },
   {
     "number": 122,
+    "body": "<p>Coverage JSON was developed and publicised during  the work of the Spatial Data on the Web working group<br>\n<a rel=\"nofollow\" href=\"https://www.w3.org/2015/spatial/wiki/Main_Page\">https://www.w3.org/2015/spatial/wiki/Main_Page</a></p>\n<p>A W3 working note was published in July 2017<br>\n<a rel=\"nofollow\" href=\"https://www.w3.org/TR/covjson-overview/\">https://www.w3.org/TR/covjson-overview/</a></p>\n<p>Implementations are building on this work.</p>\n<p>There is a current project updating the ISO/OGC abstract specification ISO19123 Coverages.</p>\n<p>If successful, this investigation would analyse CovJSON and feed back into the ISO19123 editing committee suggestions and clarifications.<br>\nCovJSON would be harmonised with ISO19123 and the updates currently being drafted to that specification.<br>\nThe CovJSON specification would be moved into W3 management.<br>\nThe supporting vocabularies would be published in a <a rel=\"nofollow\" href=\"http://w3.org\">http://w3.org</a> domain.</p>\n<p>Organisations interested in supporting this activity:</p>\n<ul>\n<li>The Met Office in the UK <a href=\"http://metoffice.gov.uk\" rel=\"nofollow\">http://metoffice.gov.uk</a></li>\n</ul>\n<p>Engagement will be organised through the Spatial Data on the Web Interest Group<br>\n<a rel=\"nofollow\" href=\"https://www.w3.org/2017/sdwig/\">https://www.w3.org/2017/sdwig/</a></p>\n<p>Next Steps:</p>\n<ul>\n<li>Liaise with OGC and ISO to analyse the harmonisation of ISO19123 and CovJSON.</li>\n<li>Develop vocabularies to support the CovJSON encoding.</li>\n<li>Manage and review activities through the Spatial Data on the Web Interest Group.</li>\n</ul>",
     "quadrant": 0,
     "ring": 0,
     "label": "Coverage JSON",
@@ -120,6 +123,7 @@
   },
   {
     "number": 159,
+    "body": "<p>There is a proposal from a number of members for this. Where does that put it in the funnel?</p>",
     "quadrant": 0,
     "ring": 0,
     "label": "Decentralized Identifiers (DID)",
@@ -171,6 +175,7 @@
   },
   {
     "number": 38,
+    "body": "<p>Where do we focus when WebAuthn goes to Rec?</p>",
     "quadrant": 0,
     "ring": 0,
     "label": "WebAuthn vNext",
@@ -208,6 +213,7 @@
   },
   {
     "number": 68,
+    "body": "<p>See <a rel=\"nofollow\" href=\"https://webkit.org/blog/7380/next-generation-3d-graphics-on-the-web/\">https://webkit.org/blog/7380/next-generation-3d-graphics-on-the-web/</a> and <a rel=\"nofollow\" href=\"https://www.w3.org/community/blog/2017/02/07/proposed-group-gpu-for-the-web-community-group/\">https://www.w3.org/community/blog/2017/02/07/proposed-group-gpu-for-the-web-community-group/</a></p>",
     "quadrant": 0,
     "ring": 1,
     "label": "GPU / next-gen graphics on the Web",
@@ -243,6 +249,7 @@
   },
   {
     "number": 181,
+    "body": "<p>Find an appropriate solution to add the base direction (equivalent to HTML's <code>dir</code> attribute) to RDF's natural language literals.</p>",
     "quadrant": 0,
     "ring": 1,
     "label": "RDF Literals and Base Directions",
@@ -275,6 +282,7 @@
   },
   {
     "number": 179,
+    "body": "<p>Seeking horizontal and general review of workshop proposal.</p>\n<p>Landing page:</p>\n<p><a rel=\"nofollow\" href=\"https://www.w3.org/auto/events/data-ws-2019/\">https://www.w3.org/auto/events/data-ws-2019/</a></p>\n<p>Cfp:</p>\n<p><a rel=\"nofollow\" href=\"https://www.w3.org/auto/events/data-ws-2019/cfp\">https://www.w3.org/auto/events/data-ws-2019/cfp</a></p>",
     "quadrant": 0,
     "ring": 1,
     "label": "W3C Workshop on Data Models for Transportation",
@@ -292,6 +300,7 @@
   },
   {
     "number": 161,
+    "body": "<p>Recharter as Web Audio API v.1 shifts to \"get out of CR\" and new work on v.2 finally starts.<br>\nWeb MIDI still in scope, still moving slowly.</p>",
     "quadrant": 0,
     "ring": 1,
     "label": "Web Audio recharter",
@@ -309,6 +318,7 @@
   },
   {
     "number": 173,
+    "body": "<p><a href=\"https://www.w3.org/2018/12/games-workshop/\" rel=\"nofollow\">W3C Workshop on Web Games</a>  27-28 June 2019; Redmond, WA, USA</p>",
     "quadrant": 0,
     "ring": 1,
     "label": "Web Games Workshop",
@@ -338,6 +348,7 @@
   },
   {
     "number": 113,
+    "body": "<p>The Web Video Map Tracks Format is a proposal for a text format derived from WebVTT that allows to associate geotagging information with a video, for instance to synchronize video playback with movement on a map.</p>\n<p>The proposal was raised by Rob Smith (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=6151111\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rjksmith\">@rjksmith</a>) and is being discussed in the Spatial Data on the Web Interest Group. See:</p>\n<ul>\n<li><a href=\"https://www.w3.org/2018/02/20-sdw-minutes.html#x10\" rel=\"nofollow\">Minutes of video geotagging format discussions</a> during SDW IG F2F in Amersfoort, 20 February 2018</li>\n<li><a href=\"https://lists.w3.org/Archives/Public/public-sdwig/2018Feb/att-0107/WebVMTIntro_180220.pdf\" rel=\"nofollow\">Presentation slides in PDF</a></li>\n</ul>\n<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=6151111\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/rjksmith\">@rjksmith</a> is working on an explainer document.</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Video geotagging format (WebVMT)",
@@ -384,6 +395,7 @@
   },
   {
     "number": 18,
+    "body": "<p><a href=\"https://www.w3.org/wiki/TPAC2016/session-hdr-summary\" rel=\"nofollow\">TPAC breakout report</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "High Dynamic Range (HDR)",
@@ -421,6 +433,7 @@
   },
   {
     "number": 115,
+    "body": "<p>The <a href=\"https://www.w3.org/community/maps4html/\" rel=\"nofollow\">Maps for HTML Community Group</a>, driven by Peter Rushforth (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=2437285\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/prushforth\">@prushforth</a>) develops proposals to define a new <code>&lt;map&gt;</code> element for HTML to represent a map.</p>\n<p>There are two proposals in one:</p>\n<ul>\n<li><a href=\"https://maps4html.github.io/HTML-Map-Element/spec/\" rel=\"nofollow\">The HTML <code>&lt;map&gt;</code> Element proposal</a> which extends the semantics of the <code>&lt;map&gt;</code> element to introduce map-related features such as the notion of layers and of projections.</li>\n<li><a href=\"https://maps4html.github.io/MapML/spec/\" rel=\"nofollow\">Map Markup Language</a> (MapML) which is a text format for encoding map information on the Web</li>\n</ul>\n<p>Also see the <a href=\"https://www.w3.org/2018/02/20-sdw-minutes.html#x14\" rel=\"nofollow\">minutes of MapML discussions</a> during the Spatial Data on the Web IG F2F in Amersfoort, 20 February 2018</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "MapML",
@@ -453,6 +466,7 @@
   },
   {
     "number": 92,
+    "body": "<p>Please read <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=4945616\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/spanicker\">@spanicker</a> 's <a href=\"https://docs.google.com/presentation/d/1nBZKbdCDAfMFhQ3Fkkc6JjliC5TjknMKCpU1ZiVKgvY/edit#slide=id.p\" rel=\"nofollow\">proposal</a> for details.</p>\n<p>Also see the <a href=\"https://www.w3.org/2017/06/20-webperf-minutes.html#item06\" rel=\"nofollow\">discussion</a> in the WebPerf WG f2f meeting.</p>\n<p>Lifecycle API aims to define a consistent set of Lifecycle states ( Active, passive, stopped, demoted, terminated), and provides a way for apps to send signals to the browsers.</p>\n<p>Question: Does this API have any overlaps with our past/future work? Is the WebPerf WG a good place to develop this idea?<br>\n/cc <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=216410\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/dontcallmedom\">@dontcallmedom</a> <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=1122927\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/tidoust\">@tidoust</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Lifecycle API",
@@ -481,6 +495,7 @@
   },
   {
     "number": 21,
+    "body": "<p>Web Bluetooth describes an API to discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web Bluetooth",
@@ -514,6 +529,7 @@
   },
   {
     "number": 150,
+    "body": "<p><a rel=\"nofollow\" href=\"https://webmachinelearning.github.io/charter/\">https://webmachinelearning.github.io/charter/</a><br>\n<a rel=\"nofollow\" href=\"https://www.w3.org/community/webmachinelearning/\">https://www.w3.org/community/webmachinelearning/</a></p>\n<p>Deliverable: Web neural network API</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Machine Learning on the Web",
@@ -556,6 +572,7 @@
   },
   {
     "number": 67,
+    "body": "<p>BG <a rel=\"nofollow\" href=\"https://www.w3.org/community/websignage/\">https://www.w3.org/community/websignage/</a>** is drafting <a rel=\"nofollow\" href=\"http://rawgit.com/futomi/W3C_Web-based_Signage_BG/master/device_infomation_api.html\">http://rawgit.com/futomi/W3C_Web-based_Signage_BG/master/device_infomation_api.html</a> Device Information API<br>\nand is in early stages of thinking on a WG<br>\n<a rel=\"nofollow\" href=\"https://w3c.github.io/charter-drafts/web-based-signage-2016.html\">https://w3c.github.io/charter-drafts/web-based-signage-2016.html</a></p>\n<p>We need to see more community review of use cases<br>\n<a rel=\"nofollow\" href=\"https://www.w3.org/2016/websigns/ucr/\">https://www.w3.org/2016/websigns/ucr/</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web-based Signage",
@@ -578,6 +595,7 @@
   },
   {
     "number": 94,
+    "body": "<p>The <a href=\"https://www.w3.org/community/lbd/\" rel=\"nofollow\">Linked Building Data CG</a> studies building information modelling (BIM) and Web of Data technologies.</p>\n<p>They are considering transitioning to a Working Group and prepared an <a href=\"https://w3c-lbd-cg.github.io/lbd/charter/\" rel=\"nofollow\">initial draft WG charter</a>.</p>\n<p>See other documents on the <a href=\"https://w3c-lbd-cg.github.io/lbd/\" rel=\"nofollow\">LBD CG group's main page</a>.</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Linked Building Data",
@@ -609,6 +627,7 @@
   },
   {
     "number": 47,
+    "body": "<p>The <a href=\"https://www.w3.org/community/webmediaapi/\" rel=\"nofollow\">Web Media API CG</a> develops the <a href=\"https://w3c.github.io/webmediaapi/\" rel=\"nofollow\">Web Media APIs 2017</a> spec which \"defines the Web APIs that should be included in device implementations to support media web apps in 2017\".</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web Media Profile (aka Web Media APIs)",
@@ -635,6 +654,7 @@
   },
   {
     "number": 171,
+    "body": "<blockquote>\n<p>allow people to bundle together the resources that make up a website, so they can be shared offline, either with or without a proof that they came from the original website<br><br>\nAn HTTP exchange consists of an HTTP request and its response. A publisher (like <a href=\"https://theestablishment.co/\" rel=\"nofollow\">https://theestablishment.co/</a>) writes (or has an author write) some content and owns the domain where it's published. A client (like Firefox) downloads content and uses it. An intermediate (like Fastly, the AMP cache, or old HTTP proxies) downloads content from its author (or another intermediate) and forwards it to a client (or another intermediate). When an HTTP exchange is encoded into a resource, the resource can be fetched from a distributing URL that is different from the publishing URL of the encoded exchange.</p>\n</blockquote>\n<p>Use cases: <a rel=\"nofollow\" href=\"https://wicg.github.io/webpackage/draft-yasskin-webpackage-use-cases.html\">https://wicg.github.io/webpackage/draft-yasskin-webpackage-use-cases.html</a><br>\nExplainer: <a href=\"https://github.com/WICG/webpackage/blob/master/explainer.md\">https://github.com/WICG/webpackage/blob/master/explainer.md</a></p>\n<ul>\n<li>Loading Signed Exchanges (W3C WICG draft): <a href=\"https://wicg.github.io/webpackage/loading.html\" rel=\"nofollow\">https://wicg.github.io/webpackage/loading.html</a></li>\n<li>Signed HTTP Exchanges (IETF draft): <a href=\"https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html\" rel=\"nofollow\">https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html</a></li>\n<li>Bundled HTTP Exchanges (IETF draft): <a href=\"https://wicg.github.io/webpackage/draft-yasskin-wpack-bundled-exchanges.html\" rel=\"nofollow\">https://wicg.github.io/webpackage/draft-yasskin-wpack-bundled-exchanges.html</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"303677653\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/235\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/235/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/235\">w3ctag/design-reviews#235</a></li>\n</ul>\n<p>As noted at <a rel=\"nofollow\" href=\"https://www.chromestatus.com/feature/5745285984681984\">https://www.chromestatus.com/feature/5745285984681984</a>, representatives from both the Firefox dev team and Safari dev team has expressed unwillingness to implement:</p>\n<ul>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"260871787\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/29\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mozilla/standards-positions/issues/29/hovercard\" href=\"https://github.com/mozilla/standards-positions/issues/29\">mozilla/standards-positions#29</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"292886248\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/53\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mozilla/standards-positions/pull/53/hovercard?comment_id=361710624&amp;comment_type=issue_comment\" href=\"https://github.com/mozilla/standards-positions/pull/53#issuecomment-361710624\">mozilla/standards-positions#53 (comment)</a></li>\n<li><a href=\"https://lists.w3.org/Archives/Public/ietf-http-wg/2018JanMar/0071.html\" rel=\"nofollow\">https://lists.w3.org/Archives/Public/ietf-http-wg/2018JanMar/0071.html</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"260871787\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/29\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mozilla/standards-positions/issues/29/hovercard?comment_id=362685284&amp;comment_type=issue_comment\" href=\"https://github.com/mozilla/standards-positions/issues/29#issuecomment-362685284\">mozilla/standards-positions#29 (comment)</a></li>\n<li><a href=\"https://twitter.com/othermaciej/status/951001352347402240\" rel=\"nofollow\">https://twitter.com/othermaciej/status/951001352347402240</a></li>\n</ul>\n<p>The gist of the feedback is that the associated security considerations are serious to the degree that the Signed HTTP Exchanges feature is harmful:</p>\n<blockquote>\n<p>Using signed HTTP exchanges to enhance the security of accessing a resource or verifying its authenticity seems like a good thing; but it seems positively harmful to use signed HTTP exchanges as a replacement for the longstanding web security model</p>\n</blockquote>\n<p>See also <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"246918067\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/96\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/96/hovercard\" href=\"https://github.com/w3c/strategy/issues/96\">#96</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Signed HTTP Exchanges",
@@ -669,6 +689,7 @@
   },
   {
     "number": 52,
+    "body": "<p><a rel=\"nofollow\" href=\"https://www.w3.org/community/web-nfc/\">https://www.w3.org/community/web-nfc/</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web NFC",
@@ -697,6 +718,7 @@
   },
   {
     "number": 184,
+    "body": "<p>There is a need for a document that explains to those less familiar with W3C how to incubate a proposal and brng it to the standards track.</p>\n<p>Needs to clarify uses of IG, CG, WG; describe impact of patent policy, horizontal review, consensus.</p>\n<p>Should link to more detailed materials, but be an understandable, self-contained overview.</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "How to Incubate (explainer)",
@@ -715,6 +737,7 @@
   },
   {
     "number": 149,
+    "body": "<p>The <a href=\"https://www.w3.org/community/audio-description/\" rel=\"nofollow\">Audio Description Community Group</a> is working to develop an open standard file format to support audio description all the way from scripting to audio mixing. Spec GitHub repo is w3c/adpt</p>\n<p>Please could that be added to the strategy funnel?</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Audio Description",
@@ -742,6 +765,7 @@
   },
   {
     "number": 95,
+    "body": "<p>The <a href=\"https://www.w3.org/community/declarative-apps/\" rel=\"nofollow\">Declarative Linked Data Apps Community Group</a> is working on <a href=\"https://atomgraph.github.io/Linked-Data-Templates/\" rel=\"nofollow\">Linked Data Templates (LDT)</a> a generic means to access SPARQL backends over HTTP with CRUD interactions against their resources. As this work matures it could be transitioned to the W3C REC track.</p>\n<p>LDT complements existing work on the <a href=\"https://www.w3.org/TR/ldp/\" rel=\"nofollow\">Linked Data Platform (LDP)</a>, <a href=\"https://www.w3.org/2017/dxwg/wiki\" rel=\"nofollow\">catalogues for datasets (DCAT)</a>, the <a href=\"https://www.w3.org/2016/poe/wiki\" rel=\"nofollow\">Obligations and Permissions WG</a>, and the <a href=\"https://www.w3.org/WoT/\" rel=\"nofollow\">Web of Things</a> as an abstraction layer for services exposed as things.</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Linked Data Templates",
@@ -759,6 +783,7 @@
   },
   {
     "number": 156,
+    "body": "<p>Spec: <a rel=\"nofollow\" href=\"https://wicg.github.io/construct-stylesheets/\">https://wicg.github.io/construct-stylesheets/</a><br>\nExplainer: <a href=\"https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md\">https://github.com/WICG/construct-stylesheets/blob/gh-pages/explainer.md</a></p>\n<blockquote>\n<p>We can provide an API for creating stylesheet objects from script, without needing style elements. Script can optionally add or remove rules from a stylesheet object. Each stylesheet object can be added directly to any number of shadow roots (and/or the top level document), which are in the same document tree where it is constructed on.</p>\n</blockquote>\n<p>The key use case for this is with web components and the shadow DOM; it’s the same use case that the Shadow Piercing feature was meant to address.</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Constructable Stylesheet Objects",
@@ -786,6 +811,7 @@
   },
   {
     "number": 178,
+    "body": "<p>Spec: <a rel=\"nofollow\" href=\"https://wicg.github.io/ad-click-attribution/\">https://wicg.github.io/ad-click-attribution/</a><br>\nExplainer (blog post): <a rel=\"nofollow\" href=\"https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/\">https://webkit.org/blog/8943/privacy-preserving-ad-click-attribution-for-the-web/</a></p>\n<blockquote>\n<p>allow for ad click attribution while disallowing arbitrary cross-site tracking.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 2,
     "label": "Privacy Preserving Ad Click Attribution",
@@ -810,6 +836,7 @@
   },
   {
     "number": 118,
+    "body": "<p>Personalization work is currently being worked in the Accessibility space at W3C, but it is a much broader topic. Are their discussions or interest about addressing Personalization elsewhere in W3C?</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Personalization?",
@@ -829,6 +856,7 @@
   },
   {
     "number": 135,
+    "body": "<ul>\n<li>Explainer: <a href=\"https://wicg.github.io/spatial-navigation/explainer.html\" rel=\"nofollow\">https://wicg.github.io/spatial-navigation/explainer.html</a></li>\n<li>Specification: <a href=\"https://wicg.github.io/spatial-navigation/\" rel=\"nofollow\">https://wicg.github.io/spatial-navigation/</a></li>\n<li>Issues: <a href=\"https://github.com/wicg/spatial-navigation/issues/\">https://github.com/wicg/spatial-navigation/issues/</a></li>\n<li>Tag review request: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"328061816\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/287\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/287/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/287\">w3ctag/design-reviews#287</a></li>\n</ul>",
     "quadrant": 0,
     "ring": 2,
     "label": "Spatial Navigation",
@@ -855,6 +883,7 @@
   },
   {
     "number": 145,
+    "body": "<ul>\n<li>Spec: <a href=\"https://wicg.github.io/web-share/\" rel=\"nofollow\">https://wicg.github.io/web-share/</a></li>\n<li>Explainer: <a href=\"https://github.com/WICG/web-share/blob/master/docs/explainer.md\">https://github.com/WICG/web-share/blob/master/docs/explainer.md</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"222906910\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/170\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/170/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/170\">w3ctag/design-reviews#170</a></li>\n</ul>\n<blockquote>\n<p>Enables a site to share data (text, URLs, images, etc) to an arbitrary destination of the user's choice. It could be a system service, a native app or another website. The goal is to enable web developers to build a generic \"share\" button that the user can click to trigger a system share dialog.</p>\n</blockquote>\n<hr>\n<p>It’s supported in Safari Technology Preview and Chrome (on Android)</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web Share API",
@@ -879,6 +908,7 @@
   },
   {
     "number": 162,
+    "body": "<p>Spec: <a rel=\"nofollow\" href=\"https://wicg.github.io/webpackage/loading.html\">https://wicg.github.io/webpackage/loading.html</a></p>\n<blockquote>\n<p>The Signed Exchanges specification [draft-yasskin-http-origin-signed-responses] describes a way to provide one or more signatures for an HTTP exchange and to check whether any of those signatures is trusted as authoritative for a particular origin. This specification describes how web browsers load those exchanges. It is expressed as several monkeypatches to the [FETCH] specification which call algorithms defined here.</p>\n</blockquote>\n<p>This is related to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"246918067\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/96\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/96/hovercard\" href=\"https://github.com/w3c/strategy/issues/96\">#96</a>, Packaging Websites (Signed HTTP Exchanges)</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Loading Signed Exchanges",
@@ -909,6 +939,7 @@
   },
   {
     "number": 49,
+    "body": "<p>The <a href=\"https://www.w3.org/community/webscreens/\" rel=\"nofollow\">Second Screen CG</a> started to discuss an <a href=\"https://github.com/webscreens/openscreenprotocol/issues\">Open Screen Protocol</a> for the Presentation API and the Remote Playback API developed by the Second Screen WG. This would improve the interoperability of implementations of these APIs.</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Open Screen protocol",
@@ -930,6 +961,7 @@
   },
   {
     "number": 124,
+    "body": "<p>Adding this card just so we can also track an attack enabled by WebUSB.  Feel free to edit this issue to include more pointers to WebUSB itself:<br>\n<a rel=\"nofollow\" href=\"https://wicg.github.io/webusb/\">https://wicg.github.io/webusb/</a></p>\n<p>And the attack:<br>\n<a rel=\"nofollow\" href=\"https://www.wired.com/story/chrome-yubikey-phishing-webusb/\">https://www.wired.com/story/chrome-yubikey-phishing-webusb/</a><br>\n<a rel=\"nofollow\" href=\"https://www.yubico.com/support/security-advisories/ysa-2018-02/\">https://www.yubico.com/support/security-advisories/ysa-2018-02/</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "WebUSB",
@@ -945,6 +977,7 @@
   },
   {
     "number": 189,
+    "body": "<p><a href=\"https://github.com/wicg/web-transport\">Web Transport</a>, currently in WICG. <a href=\"https://github.com/wicg/web-transport/blob/master/explainer.md\">Explainer</a></p>\n<p><a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=123512\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/vasilvv\">@vasilvv</a> suggests that there may be interest in parallel work between W3C (API) and IETF (protocol).</p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web-transport API",
@@ -959,6 +992,7 @@
   },
   {
     "number": 128,
+    "body": "<p><a href=\"https://github.com/wicg/aom\">https://github.com/wicg/aom</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "AOM",
@@ -978,6 +1012,7 @@
   },
   {
     "number": 170,
+    "body": "<p>There is growing demand across academia and industry for improved interoperability of BIM data on the web. As a result we have strong community interest in progressing the Linked Building Data on the Web Community Group towards a Working Group, evidenced by the wide range of use cases we have generated and defined, and large amount of supporting material developed to address these use case.</p>\n<ul>\n<li>LBD CG public page: <a href=\"https://www.w3.org/community/lbd/\" rel=\"nofollow\">https://www.w3.org/community/lbd/</a></li>\n<li>LBD CG internal docs page: <a href=\"https://w3c-lbd-cg.github.io/lbd/\" rel=\"nofollow\">https://w3c-lbd-cg.github.io/lbd/</a></li>\n<li>LBD CG Use Cases and Requirements: <a href=\"https://w3c-lbd-cg.github.io/lbd/UseCasesAndRequirements/\" rel=\"nofollow\">https://w3c-lbd-cg.github.io/lbd/UseCasesAndRequirements/</a></li>\n<li>LBD CG GitHub pages: <a href=\"https://github.com/w3c-lbd-cg/\">https://github.com/w3c-lbd-cg/</a></li>\n<li>LDAC Workshop: <a href=\"http://linkedbuildingdata.net/ldac2018/\" rel=\"nofollow\">http://linkedbuildingdata.net/ldac2018/</a></li>\n<li>SPARQL-visualiser: <a href=\"https://madsholten.github.io/sparql-visualizer/\" rel=\"nofollow\">https://madsholten.github.io/sparql-visualizer/</a></li>\n<li>BOT ontology specification draft: <a href=\"https://w3c-lbd-cg.github.io/lbd/bot/#\" rel=\"nofollow\">https://w3c-lbd-cg.github.io/lbd/bot/#</a></li>\n<li>IFC repository: <a href=\"http://smartlab1.elis.ugent.be:8889/IFC-repo/\" rel=\"nofollow\">http://smartlab1.elis.ugent.be:8889/IFC-repo/</a> (IFC files and ifcOWL files)</li>\n<li>IFCtoLBD converter: <a href=\"https://github.com/jyrkioraskari/IFCtoLBD\">https://github.com/jyrkioraskari/IFCtoLBD</a></li>\n<li>OpenSmartHome Dataset: <a href=\"https://github.com/TechnicalBuildingSystems/OpenSmartHomeData\">https://github.com/TechnicalBuildingSystems/OpenSmartHomeData</a></li>\n</ul>\n<p>The LBD CG would therefore like to start the transition process to a WG, scoped to work on developing a web standard for publishing building data on the web. See initial charter and draft ontology for more details:</p>\n<ul>\n<li>Our charter: <a href=\"https://w3c-lbd-cg.github.io/lbd/charter/\" rel=\"nofollow\">https://w3c-lbd-cg.github.io/lbd/charter/</a></li>\n<li>BOT ontology specification draft: <a href=\"https://w3c-lbd-cg.github.io/lbd/bot/#\" rel=\"nofollow\">https://w3c-lbd-cg.github.io/lbd/bot/#</a></li>\n</ul>\n<p>Further evidence of our readiness to become a WG can be found in the strong backing of several key academic and industrial partners, details of which can be found in a survey recently conducted over the LBD group, 13 of which are or will become members of W3C in order to support the WG - <a rel=\"nofollow\" href=\"https://docs.google.com/forms/d/1u4Wx_ZzFTg1kLQwJUNUSU5VL0hLQU6BQOMMJyatesBg/edit#responses\">https://docs.google.com/forms/d/1u4Wx_ZzFTg1kLQwJUNUSU5VL0hLQU6BQOMMJyatesBg/edit#responses</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Transition of Linked Building Data on the Web from Community Group to Working Group",
@@ -996,6 +1031,7 @@
   },
   {
     "number": 121,
+    "body": "<p>Issue created following <a href=\"https://www.w3.org/2018/06/06-sdw-minutes.html#x06\" rel=\"nofollow\">discussions</a> during the F2F of the Spatial Data on the Web IG on 5-6 June 2018</p>\n<p>The Spatial Data on the Web Working Group published the <a href=\"https://www.w3.org/TR/2017/REC-vocab-ssn-20171019/\" rel=\"nofollow\">Semantic Sensor and Network Ontology</a> in October 2017.</p>\n<p>Feedback received since then prompted the Spatial Data on the Web Interest Group to draft extensions to SSN, which the IG can publish as an IG Note. Question to answer is whether the extensions should rather be published as an updated version of SSN, which would require the chartering of a Working Group.</p>\n<p>Possible updates and extensions are being tracked on GitHub:</p>\n<ul>\n<li><a href=\"https://github.com/w3c/sdw/projects/7\">SSN Extensions</a></li>\n<li><a href=\"https://github.com/w3c/sdw/projects/3\">SSN amendments</a></li>\n</ul>",
     "quadrant": 0,
     "ring": 2,
     "label": "Semantic Sensor and Network Ontology (SSN) v2",
@@ -1018,6 +1054,7 @@
   },
   {
     "number": 158,
+    "body": "<ul>\n<li>Spec: <a href=\"https://wicg.github.io/web-share-target/\" rel=\"nofollow\">https://wicg.github.io/web-share-target/</a></li>\n<li>Explainer: <a href=\"https://github.com/WICG/web-share-target/blob/master/docs/explainer.md\">https://github.com/WICG/web-share-target/blob/master/docs/explainer.md</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"280028747\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/221\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/221/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/221\">w3ctag/design-reviews#221</a></li>\n</ul>\n<blockquote>\n<p>Allows websites to receive shared data (text, URLs, images) and register to be choosable by the user as targets from sharing contexts, including (but not limited to) Web Share.</p>\n<p>Many modern operating systems have a \"share\" concept, where the user gets to pick an app to receive the shared data. The goal is to allow web apps to appear in the UI for picking an app to share to.</p>\n<p>In combination with the Web Share API (being proposed in parallel), this would allow cross-sharing between websites on any platform (even those without a native sharing system).</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web Share Target",
@@ -1040,6 +1077,7 @@
   },
   {
     "number": 169,
+    "body": "<ul>\n<li>Explainer: <a href=\"https://github.com/MicrosoftEdge/MSEdgeExplainers/blob/master/HTMLModules/explainer.md\">MicrosoftEdge/MSEdgeExplainers/HTMLModules/explainer.md</a></li>\n<li>Background discussion: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"237252809\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/webcomponents/issues/645\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/webcomponents/issues/645/hovercard\" href=\"https://github.com/w3c/webcomponents/issues/645\">w3c/webcomponents#645</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"400040338\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/334\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/334/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/334\">w3ctag/design-reviews#334</a></li>\n</ul>\n<blockquote>\n<p>allow web developers to package and access declarative content from script in a way that allows for good componentization and reusability, and integrates well into the existing ES6 Modules infrastructure.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 2,
     "label": "HTML Modules",
@@ -1062,6 +1100,7 @@
   },
   {
     "number": 138,
+    "body": "<ul>\n<li>Spec: <a href=\"https://wicg.github.io/web-locks/\" rel=\"nofollow\">https://wicg.github.io/web-locks/</a></li>\n<li>Explainer: <a href=\"https://github.com/WICG/web-locks/blob/master/EXPLAINER.md\">https://github.com/WICG/web-locks/blob/master/EXPLAINER.md</a></li>\n<li>MDN article: <a href=\"https://developer.mozilla.org/en-US/docs/Web/API/Web_Locks_API\" rel=\"nofollow\">https://developer.mozilla.org/en-US/docs/Web/API/Web_Locks_API</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"273076316\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/217\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/217/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/217\">w3ctag/design-reviews#217</a></li>\n</ul>\n<blockquote>\n<p>The Web Locks API allows scripts running in one tab or worker to asynchronously acquire a lock, hold it while work is performed, then release it. While held, no other script executing in the same origin can acquire the same lock, which allows a web app running in multiple tabs or workers to coordinate work and the use of resources.</p>\n</blockquote>\n<p>Cc <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=771547\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/inexorabletash\">@inexorabletash</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Web Locks",
@@ -1084,6 +1123,7 @@
   },
   {
     "number": 51,
+    "body": "<p><a rel=\"nofollow\" href=\"https://www.w3.org/community/interledger\">https://www.w3.org/community/interledger</a></p>",
     "quadrant": 0,
     "ring": 2,
     "label": "Interledger Protocol",
@@ -1106,6 +1146,7 @@
   },
   {
     "number": 43,
+    "body": "<p>There is a <a href=\"https://www.w3.org/community/mathonwebpages/\" rel=\"nofollow\">Community Group</a></p>\n<blockquote>\n<p>There are many technical issues in presenting mathematics in today's Open Web Platform, which has led to the poor access to Mathematics in Web Pages. This is in spite of the existing de jure or de facto standards for authoring mathematics, like MathML, LaTeX, or asciimath, which have been around for a very long time and are widely used by the mathematical and technical communities.</p>\n<p>While MathML was supposed to solve the problem of rendering mathematics on the web it lacks in both implementations and general interest from browser vendors. However, in the past decade, many math rendering tools have been pushing math on the web forward using HTML/CSS and SVG.</p>\n<p>One of the identified issues is that, while browser manufacturers have continually improved and extended their HTML and CSS layout engines, the approaches to render mathematics have not been able to align with these improvements. In fact, the current approaches to math layout could be considered to be largely disjoint from the other technologies of OWP. Another key issue, is that exposing (and thus leveraging) semantic information of mathematical and scientific content on the web needs to move towards modern practices and standards instead of being limited to a single solution (MathML). Such information is critical for accessibility, machine-readability, and re-use of mathematical content.</p>\n<p>This Community Group intends to look at the problems of math on the web in a very bottom-up manner. Experts in this group should identify how the core OWP layout engines, centered around HTML, SVG, and CSS, can be re-used for the purpose of mathematical layout by mapping mathematical entities on top of these, thereby ensuring a much more efficient result, and making use of current and future OWP optimization possibilities. Similarly, experts should work to identify best practices for semantics from the point of view of today's successful solutions.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 3,
     "label": "Getting Math Onto Web Pages",
@@ -1149,6 +1190,7 @@
   },
   {
     "number": 81,
+    "body": "<p>Standards for audience-data interchange, advertising, analytics? At W3C, it could build privacy in from the start.</p>\n<p>Noted while at a podcasting discussion. Will the data be/make the platform?</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Advertising and data analytics",
@@ -1196,6 +1238,7 @@
   },
   {
     "number": 116,
+    "body": "<p>This issue has been lingering in the RDF community for a long time; the problem was that there was no known algorithm to define a canonical RDF graph representation, a necessary step for signing RDF graphs.</p>\n<p>Things have changed a few years ago when, in conjunction with the work on JSON-LD and its applications, there is a published algorithm for the creation of a canonical RDF graph. However, this has never advanced to a WG.</p>\n<p>Any usage of RDF (primarily in the form of JSON-LD) in the area of authentication, verifiable claims, etc., would rely on something like that.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Canonical RDF, Linked Data Signatures",
@@ -1228,6 +1271,7 @@
   },
   {
     "number": 8,
+    "body": "<p><a rel=\"nofollow\" href=\"https://www.w3.org/2016/04/blockchain-workshop/\">https://www.w3.org/2016/04/blockchain-workshop/</a></p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Blockchain",
@@ -1259,6 +1303,7 @@
   },
   {
     "number": 96,
+    "body": "<p>Jeffrey Yasskin is proposing new web packaging work at the IETF - see presentation to the DISPATCH WG at IETF99 (July 2017). <a href=\"https://github.com/WICG/webpackage\">https://github.com/WICG/webpackage</a></p>\n<p>This additional information from <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=194984\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/sideshowbarker\">@sideshowbarker</a>:</p>\n<blockquote>\n<p>allow people to bundle together the resources that make up a website, so they can be shared offline, either with or without a proof that they came from the original website<br><br>\nAn HTTP exchange consists of an HTTP request and its response. A publisher (like <a href=\"https://theestablishment.co/\" rel=\"nofollow\">https://theestablishment.co/</a>) writes (or has an author write) some content and owns the domain where it's published. A client (like Firefox) downloads content and uses it. An intermediate (like Fastly, the AMP cache, or old HTTP proxies) downloads content from its author (or another intermediate) and forwards it to a client (or another intermediate). When an HTTP exchange is encoded into a resource, the resource can be fetched from a distributing URL that is different from the publishing URL of the encoded exchange.</p>\n</blockquote>\n<p>Use cases: <a rel=\"nofollow\" href=\"https://wicg.github.io/webpackage/draft-yasskin-webpackage-use-cases.html\">https://wicg.github.io/webpackage/draft-yasskin-webpackage-use-cases.html</a><br>\nExplainer: <a href=\"https://github.com/WICG/webpackage/blob/master/explainer.md\">https://github.com/WICG/webpackage/blob/master/explainer.md</a></p>\n<ul>\n<li>Loading Signed Exchanges (W3C WICG draft): <a href=\"https://wicg.github.io/webpackage/loading.html\" rel=\"nofollow\">https://wicg.github.io/webpackage/loading.html</a></li>\n<li>Signed HTTP Exchanges (IETF draft): <a href=\"https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html\" rel=\"nofollow\">https://wicg.github.io/webpackage/draft-yasskin-http-origin-signed-responses.html</a></li>\n<li>Bundled HTTP Exchanges (IETF draft): <a href=\"https://wicg.github.io/webpackage/draft-yasskin-wpack-bundled-exchanges.html\" rel=\"nofollow\">https://wicg.github.io/webpackage/draft-yasskin-wpack-bundled-exchanges.html</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"303677653\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/235\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/235/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/235\">w3ctag/design-reviews#235</a></li>\n</ul>\n<p>As noted at <a rel=\"nofollow\" href=\"https://www.chromestatus.com/feature/5745285984681984\">https://www.chromestatus.com/feature/5745285984681984</a>, representatives from both the Firefox dev team and Safari dev team has expressed unwillingness to implement:</p>\n<ul>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"260871787\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/29\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mozilla/standards-positions/issues/29/hovercard\" href=\"https://github.com/mozilla/standards-positions/issues/29\">mozilla/standards-positions#29</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"292886248\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/53\" data-hovercard-type=\"pull_request\" data-hovercard-url=\"/mozilla/standards-positions/pull/53/hovercard?comment_id=361710624&amp;comment_type=issue_comment\" href=\"https://github.com/mozilla/standards-positions/pull/53#issuecomment-361710624\">mozilla/standards-positions#53 (comment)</a></li>\n<li><a href=\"https://lists.w3.org/Archives/Public/ietf-http-wg/2018JanMar/0071.html\" rel=\"nofollow\">https://lists.w3.org/Archives/Public/ietf-http-wg/2018JanMar/0071.html</a></li>\n<li><a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"260871787\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/mozilla/standards-positions/issues/29\" data-hovercard-type=\"issue\" data-hovercard-url=\"/mozilla/standards-positions/issues/29/hovercard?comment_id=362685284&amp;comment_type=issue_comment\" href=\"https://github.com/mozilla/standards-positions/issues/29#issuecomment-362685284\">mozilla/standards-positions#29 (comment)</a></li>\n<li><a href=\"https://twitter.com/othermaciej/status/951001352347402240\" rel=\"nofollow\">https://twitter.com/othermaciej/status/951001352347402240</a></li>\n</ul>\n<p>The gist of the feedback is that the associated security considerations are serious to the degree that the Signed HTTP Exchanges feature is harmful:</p>\n<blockquote>\n<p>Using signed HTTP exchanges to enhance the security of accessing a resource or verifying its authenticity seems like a good thing; but it seems positively harmful to use signed HTTP exchanges as a replacement for the longstanding web security model</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 3,
     "label": "Packaging",
@@ -1298,6 +1343,7 @@
   },
   {
     "number": 175,
+    "body": "<p>Possible workshop on inclusive XR, to explore how immersive technologies can support a diverse range of use cases and needs.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Inclusive XR workshop",
@@ -1347,6 +1393,7 @@
   },
   {
     "number": 112,
+    "body": "<p>Possible workshop on sharing experiences from 20 years of Linked Data. Annotations for Linked Data and other work arounds for weaknesses in how RDF handles reification, e.g. in relation to temporal, spatial, trust and provenance information. LinkedData transformation languages for mapping data between different vocabularies with overlapping semantics.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Two decades of Linked Data",
@@ -1367,6 +1414,7 @@
   },
   {
     "number": 32,
+    "body": "<p>The much talked about but yet to be implemented plans for creating the environment and processes necessary to enable community development and management of vocabularies at W3C.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Vocabulary management project",
@@ -1397,6 +1445,7 @@
   },
   {
     "number": 9,
+    "body": "<p><em>From <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=1122927\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/tidoust\">@tidoust</a> on October 12, 2016 7:1</em></p>\n<p>null</p>\n<p><em>Copied from original issue: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"182450147\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/tidoust/strategy/issues/5\" data-hovercard-type=\"issue\" data-hovercard-url=\"/tidoust/strategy/issues/5/hovercard\" href=\"https://github.com/tidoust/strategy/issues/5\">tidoust#5</a></em></p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Digital Offers",
@@ -1425,6 +1474,7 @@
   },
   {
     "number": 133,
+    "body": "<p>Some <a href=\"https://docs.google.com/presentation/d/17BVuVX4c3dPaNe_PzD54UiwUcP6FnKwsevUaVRGNi00/edit#slide=id.g3c5bb5d96c_1_0\" rel=\"nofollow\">potential use cases for WebRTC</a> presented during last WebRTC WG F2F would require a mechanism to synchronize audio/video with data.</p>\n<p>One possible approach would be to use <a href=\"https://tools.ietf.org/html/rfc4103\" rel=\"nofollow\">Real-Time Text</a> to timestamp data with the audio/video, but the question of the synchronization of that stream with the audio/video streams remains to some extent (depending on the use case and precision required).</p>\n<p>Some questions to handle:</p>\n<ol>\n<li>What is the browser's role in the synchronization? Should it sync things up on its own? Is it enough to expose some info and knobs such as the relationship to the <code>Performance.now</code> clock and the average latency of the processing pipeline, as done in the Web Audio API?</li>\n<li>If processing of the data needs to be done by the app, what does it mean to synchronize the streams? I.e. would triggering an event at the right time be enough when high-precision is required? Or should the app rather have a way to monitor the information one way or the other through a worklet, or a processing mechanism close to the rendering pipeline such as <code>requestAnimationFrame</code>?</li>\n</ol>\n<p>It is interesting to see the relationship between this need and similar needs expressed over the years by media companies. For instance, the Timing on the Web effort (<a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"192252568\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/46\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/46/hovercard\" href=\"https://github.com/w3c/strategy/issues/46\">#46</a>) would help solve the first point, and was not triggered by WebRTC use cases. Also the second point was recently discussed at length in the Media &amp; Entertainment IG (see <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"331200926\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/media-and-entertainment/issues/4\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/media-and-entertainment/issues/4/hovercard\" href=\"https://github.com/w3c/media-and-entertainment/issues/4\">w3c/media-and-entertainment#4</a>).</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Synchronize audio/video with data in WebRTC",
@@ -1447,6 +1497,7 @@
   },
   {
     "number": 48,
+    "body": "<p>The <a href=\"https://www.w3.org/community/inbandtracks/\" rel=\"nofollow\">Media Resource In-band Tracks CG</a> developed the <a href=\"https://dev.w3.org/html5/html-sourcing-inband-tracks/\" rel=\"nofollow\">Sourcing In-band Media Resource Tracks from Media Containers into HTML</a> spec, informatively referenced by HTML5.</p>\n<p>Specification is useful to media companies, but has no official standing and probably needs to be completed.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Sourcing in-band media resource tracks",
@@ -1470,6 +1521,7 @@
   },
   {
     "number": 130,
+    "body": "<p>Discussed in the context of <a href=\"https://www.w3.org/2018/06/19-webrtc-minutes.html#item05\" rel=\"nofollow\">WebRTC vNext</a> exchanges during last WebRTC WG F2F. See <a href=\"https://docs.google.com/presentation/d/17BVuVX4c3dPaNe_PzD54UiwUcP6FnKwsevUaVRGNi00/edit#slide=id.g3c72398134_0_735\" rel=\"nofollow\">Encoders/Decoders slides</a> presented during that meeting.</p>\n<p>In WebRTC, the encoder/decoder is entangled with the transport mechanism. For good reasons as transmission can then benefit from insider codec and transport knowledge to prepare optimized packets. However, separating encoder/decoder from transport and exposing an encoder/decoder API may also makes sense in some cases. For instance:</p>\n<ul>\n<li>it would make it possible to distribute one stream to multiple transports, which can be useful in teleconference systems where a server/computer acts as <a href=\"https://webrtcglossary.com/sfu/\" rel=\"nofollow\">Selective Forward Unit</a> (SFU).</li>\n<li>it would give apps more control over the jitter buffer and other performance parameters for cases where latency is critical (e.g. distributed orchestra)</li>\n<li>it would allow apps to add their own encryption scheme before transport</li>\n<li>it would allow apps to bring their own codec for WebRTC as described in <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"234132318\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/90\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/90/hovercard\" href=\"https://github.com/w3c/strategy/issues/90\">#90</a></li>\n<li>it would allow to use the same transport for audio/video/data</li>\n</ul>\n<p>Some questions that such work would raise:</p>\n<ul>\n<li>Relationship with MSE/EME and the Media recorder API? This seems to bring some redundancy.</li>\n<li>Similarly, for audio, relationship with the Web Audio API?</li>\n<li>Efficiency? As said, there are good reasons to combine encoder/decoder and transport in WebRTC scenarios.</li>\n</ul>\n<p>The WebRTC WG might choose to work on this later on, although note that access to encoders/decoders would enable other non-WebRTC-related media use cases, so if other parties are interested, incubation/standardizion could be done in a different group. F2F outcome does not suggest strong support within the WG for now.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Media encoder/decoder API",
@@ -1492,6 +1544,7 @@
   },
   {
     "number": 131,
+    "body": "<p>Idea discussed during the last WebRTC F2F meeting, see <a href=\"https://lists.w3.org/Archives/Public/public-webrtc/2018Jun/0176.html\" rel=\"nofollow\">summary of discussion</a>.</p>\n<p>As described in the summary, main benefits would be:</p>\n<ul>\n<li>Having a single and more persistent WebRTC connection if done in service worker</li>\n<li>Having a more flexible connection than WebSocket</li>\n<li>Processing data out of the main thread</li>\n</ul>\n<p>First step would probably be to enable data channel support in workers. Support for media channels requires more study.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "WebRTC in workers",
@@ -1514,6 +1567,7 @@
   },
   {
     "number": 154,
+    "body": "<p>Spec: <a href=\"https://github.com/gpuweb/spirv-execution-env/blob/master/execution-env.md#webgpu-execution-environment\">https://github.com/gpuweb/spirv-execution-env/blob/master/execution-env.md#webgpu-execution-environment</a><br>\nRelated documents: <a href=\"https://github.com/gpuweb/spirv-execution-env\">https://github.com/gpuweb/spirv-execution-env</a></p>\n<blockquote>\n<p>WebGPU shaders are expressed in SPIR-V. SPIR-V is usable in several execution environments, and so its core definition describes a superset of functionality across all those environments. The \"WebGPU Execution Environment Specification for SPIR-V\" section describes restrictions on SPIR-V for use with WebGPU.… WebGPU is a client API for SPIR-V.</p>\n</blockquote>\n<p>This is an alternative to the <a href=\"https://github.com/w3c/strategy/issues/153\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/153/hovercard\">WHLSL (Web High-level Shading Language) for WebGPU</a> proposal, <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"380561483\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/153\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/153/hovercard\" href=\"https://github.com/w3c/strategy/issues/153\">#153</a>.</p>\n<p>Note that SPIR-V is a binary format, while WHLSL is a text format.</p>\n<p>See discussion at <a rel=\"nofollow\" href=\"https://lists.w3.org/Archives/Public/public-gpu/2018Nov/thread.html#msg45\">https://lists.w3.org/Archives/Public/public-gpu/2018Nov/thread.html#msg45</a></p>\n<p>See related discussion at <a rel=\"nofollow\" href=\"https://lists.w3.org/Archives/Public/public-gpu/2018Nov/0042.html\">https://lists.w3.org/Archives/Public/public-gpu/2018Nov/0042.html</a> and the entire thread at <a rel=\"nofollow\" href=\"https://lists.w3.org/Archives/Public/public-gpu/2018Nov/thread.html#msg1\">https://lists.w3.org/Archives/Public/public-gpu/2018Nov/thread.html#msg1</a></p>\n<p>This is related to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"206031955\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/68\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/68/hovercard\" href=\"https://github.com/w3c/strategy/issues/68\">#68</a> but more concrete/specific.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "SPIR-V for WebGPU (binary shader language)",
@@ -1534,6 +1588,7 @@
   },
   {
     "number": 89,
+    "body": "<p>The <a href=\"https://wicg.github.io/shape-detection-api/\" rel=\"nofollow\">Accelerated Shape Detection in Images</a> proposal describes an API providing access to accelerated shape detectors (e.g. human faces) for still images and/or live image feeds, taking advantage of hardware capabilities, when available.</p>\n<p>The document is being proposed in the <a href=\"https://www.w3.org/community/wicg/\" rel=\"nofollow\">Web Platform Incubator CG</a></p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Shape Detection in images",
@@ -1555,6 +1610,7 @@
   },
   {
     "number": 151,
+    "body": "<p>Adrian Hope-Bailie introduced this topic during TPAC 2018; see his presentation:<br>\n<a rel=\"nofollow\" href=\"https://www.w3.org/2018/Talks/ahb_monetization_20181023.pdf\">https://www.w3.org/2018/Talks/ahb_monetization_20181023.pdf</a></p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Web Monetization",
@@ -1577,6 +1633,7 @@
   },
   {
     "number": 143,
+    "body": "<ul>\n<li>Spec: <a href=\"https://rawgit.com/KenjiBaheux/portals/master/index.html\" rel=\"nofollow\">https://rawgit.com/KenjiBaheux/portals/master/index.html</a></li>\n<li>Explainer: <a href=\"https://github.com/KenjiBaheux/portals/blob/master/explainer.md\">https://github.com/KenjiBaheux/portals/blob/master/explainer.md</a></li>\n<li>Key scenarios: <a href=\"https://github.com/KenjiBaheux/portals/blob/master/key-scenarios.md\">https://github.com/KenjiBaheux/portals/blob/master/key-scenarios.md</a></li>\n<li>TAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"387145805\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/331\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/331/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/331\">w3ctag/design-reviews#331</a></li>\n</ul>\n<blockquote>\n<p>proposal for enabling seamless navigations between sites or pages. In particular, this proposal enables a page to show another page as an inset and perform a seamless transition between an inset state and a navigated state.</p>\n</blockquote>\n<blockquote>\n<p>This specification extends [HTML] to define a new kind of top-level browsing context, which can be embedded in another document, and a mechanism for replacing the contents of another top-level browsing context with the previously embedded context.</p>\n</blockquote>\n<blockquote>\n<h3>Same-origin seamless navigations</h3>\n<p>A Multi Page Application would like to achieve navigations that are comparable with those of a Single Page Application.</p>\n</blockquote>\n<blockquote>\n<h3>Carousel of articles from different websites</h3>\n<p>A news aggregator wants to provide its users the ability to quickly navigate between articles from various publications that cover the same news story.</p>\n</blockquote>\n<blockquote>\n<h3>Publication with an infinite list of articles</h3>\n<p>A web publication wants to offer an infinite list of articles but without having to redesign their website which is architectured as a Multi Page App.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 3,
     "label": "Portals spec",
@@ -1599,6 +1656,7 @@
   },
   {
     "number": 139,
+    "body": "<ul>\n<li>Spec: <a href=\"https://rawgit.com/vdjeric/js-self-profiling/master/index.html\" rel=\"nofollow\">https://rawgit.com/vdjeric/js-self-profiling/master/index.html</a></li>\n<li>Readme: <a href=\"https://github.com/vdjeric/js-self-profiling#javascript-self-profiling-api-proposal\">https://github.com/vdjeric/js-self-profiling#javascript-self-profiling-api-proposal</a></li>\n<li>Explainer: <a href=\"https://discourse.wicg.io/t/proposal-an-api-to-allow-webpage-javascript-to-profile-its-own-performance/2818\" rel=\"nofollow\">https://discourse.wicg.io/t/proposal-an-api-to-allow-webpage-javascript-to-profile-its-own-performance/2818</a></li>\n</ul>\n<blockquote>\n<p>Web developers want to understand how their webapps perform on real user devices, and they want to know which parts of their code are slow so they can target optimizations.</p>\n<p>Currently, developers have to either profile their site in their own browser (not representative) or pepper their code with boilerplate timing statements (incomplete, doesn’t scale well)…</p>\n<p>The existing approaches for debugging webapp slowdowns in the field are laborious, don’t have complete coverage, and have serious overheads. A native API for pages to profile their own JS execution would make debugging web performance a lot easier. Note that this API would only allow profiling the page’s JS execution, not any browser internals like DOM implementation. And since similar functionality can be polyfilled with JS, there should be no security or privacy concerns.</p>\n<p>A native self-profiling API for JS code would also allow web developers to efficiently find hotspots in their JS code during page loads and user interactions, to assign CPU budgets to individual JS-implemented features on the page, to find unnecessary work being done on the client, and to find low-priority JS code executing in the background and wasting device power.</p>\n<p>The collected profiles can be sent to analytics servers for aggregation and automatic analysis.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 3,
     "label": "API to enable Web apps to self-profile their own JavaScript performance",
@@ -1625,6 +1683,7 @@
   },
   {
     "number": 155,
+    "body": "<p><a href=\"https://github.com/WICG/devtools-protocol\">https://github.com/WICG/devtools-protocol</a></p>\n<blockquote>\n<ul>\n<li>Help empower web developers to build great applications by supporting an ecosystem of diagnostics tools which work well across a variety of targets.</li>\n<li>Reduce the need for target-specific \"devtools protocol adapters\" in order to simplify the experience for tool users and tool developers.</li>\n<li>Provide a vendor-neutral forum to facilitate collaboration and consensus building between different protocol implementations and interested clients.</li>\n<li>Reduce the engineering investment necessary to build compatible protocol implementations through sharing of test cases.</li>\n</ul>\n</blockquote>\n<p><a rel=\"nofollow\" href=\"https://wicg.github.io/devtools-protocol/specification/docs/domains/\">https://wicg.github.io/devtools-protocol/specification/docs/domains/</a></p>\n<blockquote>\n<p><a href=\"https://wicg.github.io/devtools-protocol/specification/docs/domains/debugger.html\" rel=\"nofollow\">Debugger</a> - Debugger domain exposes JavaScript debugging capabilities. It allows setting and removing breakpoints, stepping through execution, exploring stack traces, etc.</p>\n<p><a href=\"https://wicg.github.io/devtools-protocol/specification/docs/domains/runtime.html\" rel=\"nofollow\">Runtime</a> - Runtime domain exposes JavaScript runtime by means of remote evaluation and mirror objects. Evaluation results are returned as mirror object that expose object type, string representation and unique identifier that can be used for further object reference. Original objects are maintained in memory unless they are either explicitly released.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 3,
     "label": "DevTools Protocol",
@@ -1647,6 +1706,7 @@
   },
   {
     "number": 163,
+    "body": "<p>This is an <a href=\"https://github.com/w3c/EasierRDF\">investigation on how to make RDF easier to use</a>, with the goal of making it easy enough for average developers (middle 33% of ability). By \"RDF\" we mean the whole RDF ecosystem, including SPARQL, OWL, tools, standards, educational materials, etc.,  everything that a developer touches when using RDF.</p>\n<p>If successful, this is likely to lead to work on a higher-level easier to use framework that builds upon an updated RDF Core. For more details, see: the <a href=\"https://github.com/w3c/EasierRDF\">GitHub repository</a></p>\n<p>Note this is complementary to the <a href=\"https://www.w3.org/Data/events/data-ws-2019/cfp.html\" rel=\"nofollow\">Graph Data Workshop</a>.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Easier RDF",
@@ -1672,6 +1732,7 @@
   },
   {
     "number": 152,
+    "body": "<p>Spec: <a rel=\"nofollow\" href=\"https://cdn.staticaly.com/gh/gpuweb/proposals/master/WebGPU-Apple/api-proposal.html\">https://cdn.staticaly.com/gh/gpuweb/proposals/master/WebGPU-Apple/api-proposal.html</a><br>\nSource: <a href=\"https://github.com/gpuweb/proposals/blob/master/WebGPU-Apple/api-proposal.html\">https://github.com/gpuweb/proposals/blob/master/WebGPU-Apple/api-proposal.html</a></p>\n<p>As far as I know, this proposal from Apple is the only concrete documented proposal for the WebGPU API itself (as opposed to the related-but-separate proposals for shading language).</p>\n<p>So this is related to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"206031955\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/68\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/68/hovercard\" href=\"https://github.com/w3c/strategy/issues/68\">#68</a> but more concrete/specific.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "WebGPU API Proposal (Apple)",
@@ -1694,6 +1755,7 @@
   },
   {
     "number": 46,
+    "body": "<p>The <a href=\"https://www.w3.org/community/webtiming/\" rel=\"nofollow\">Multi-Device Timing CG</a> has been discussing single- and cross-device synchronization issues and possible improvements to existing algorithms that deal with time.</p>\n<p>The <a href=\"http://webtiming.github.io/timingobject/\" rel=\"nofollow\">Timing Object</a> spec proposes to expose a \"local object that may be used by Web clients to ensure precisely timed operation as well as flexible timing control\".</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "Timing on the web",
@@ -1719,6 +1781,7 @@
   },
   {
     "number": 142,
+    "body": "<p>Spec: <a rel=\"nofollow\" href=\"https://wicg.github.io/entries-api/\">https://wicg.github.io/entries-api/</a><br>\nExplainer: <a href=\"https://github.com/WICG/entries-api/blob/master/EXPLAINER.md\">https://github.com/WICG/entries-api/blob/master/EXPLAINER.md</a><br>\nMDN article: <a rel=\"nofollow\" href=\"https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API\">https://developer.mozilla.org/en-US/docs/Web/API/File_and_Directory_Entries_API</a><br>\nTAG design review: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"272693427\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3ctag/design-reviews/issues/215\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3ctag/design-reviews/issues/215/hovercard\" href=\"https://github.com/w3ctag/design-reviews/issues/215\">w3ctag/design-reviews#215</a></p>\n<blockquote>\n<p>This specification attempts to document the <code>FileEntry</code> and <code>DirectoryEntry</code> types and related entry points that allow scripts access to the contents of directories made available to web pages by drag-and-drop operations in Google Chrome and other web browsers that have implemented the API for compatibility.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 3,
     "label": "File and Directory Entries API",
@@ -1741,6 +1804,7 @@
   },
   {
     "number": 153,
+    "body": "<p>Spec: <a href=\"https://github.com/gpuweb/WHLSL/blob/master/Spec/source/index.rst#wsl-specification\">https://github.com/gpuweb/WHLSL/blob/master/Spec/source/index.rst#wsl-specification</a><br>\nRelated documents: <a href=\"https://github.com/gpuweb/WHLSL#whlsl\">https://github.com/gpuweb/WHLSL#whlsl</a><br>\nBlog posting: <a rel=\"nofollow\" href=\"https://webkit.org/blog/8482/web-high-level-shading-language/\">https://webkit.org/blog/8482/web-high-level-shading-language/</a></p>\n<blockquote>\n<p>WHLSL is a new shading language that fits the Web platform… provides a human-writable, safe programming language for the WebGPU API. The language is based on HLSL, but simplifies and extends it… designed to target other high-level shading languages as compilation targets.</p>\n</blockquote>\n<p>This is an alternative to the <a href=\"https://github.com/w3c/strategy/issues/154\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/154/hovercard\">SPIR-V for WebGPU</a> proposal, <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"380563076\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/154\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/154/hovercard\" href=\"https://github.com/w3c/strategy/issues/154\">#154</a>.</p>\n<p>Note that WHLSL is a text format, while SPIR-V is a binary format.</p>\n<p>See related discussion at <a rel=\"nofollow\" href=\"https://lists.w3.org/Archives/Public/public-gpu/2018Nov/0042.html\">https://lists.w3.org/Archives/Public/public-gpu/2018Nov/0042.html</a> and the entire thread at <a rel=\"nofollow\" href=\"https://lists.w3.org/Archives/Public/public-gpu/2018Nov/thread.html#msg1\">https://lists.w3.org/Archives/Public/public-gpu/2018Nov/thread.html#msg1</a></p>\n<p>This is related to <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"206031955\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/strategy/issues/68\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/68/hovercard\" href=\"https://github.com/w3c/strategy/issues/68\">#68</a> but more concrete/specific.</p>",
     "quadrant": 0,
     "ring": 3,
     "label": "WHLSL (Web High-level Shading Language) for WebGPU",
@@ -1761,6 +1825,7 @@
   },
   {
     "number": 44,
+    "body": "<p><a rel=\"nofollow\" href=\"https://www.ampproject.org/docs/reference/spec.html\">https://www.ampproject.org/docs/reference/spec.html</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "AMP",
@@ -1807,6 +1872,7 @@
   },
   {
     "number": 71,
+    "body": "<p>What should we do with voice?</p>\n<p>Relevant CG(s):</p>\n<ul>\n<li><a href=\"https://www.w3.org/community/speech-api/\" rel=\"nofollow\">Speech API</a></li>\n<li><a href=\"https://www.w3.org/community/voiceinteraction/\" rel=\"nofollow\">Voice Interaction CG</a></li>\n</ul>\n<p><a href=\"https://lists.w3.org/Archives/Public/public-speech-api/2016Nov/0000.html\" rel=\"nofollow\">MS input (November 2016)</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Voice interaction",
@@ -1839,6 +1905,7 @@
   },
   {
     "number": 28,
+    "body": "",
     "quadrant": 0,
     "ring": 4,
     "label": "Artificial Intellgience [AI] (assistants, machine learning, big data)",
@@ -1891,6 +1958,7 @@
   },
   {
     "number": 54,
+    "body": "<p>Discourse, accountability, blocking in social protocols.<br>\nPotential connections to provenance, annotation, identity, privacy. Conditional anonymity. Scaling problems. cf. spam, bullying.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Fake News",
@@ -1918,6 +1986,7 @@
   },
   {
     "number": 58,
+    "body": "<p>The first version of PNG was done on a mailing list, and independent of W3C. It was then published a Proposed Rec.</p>\n<p>The original group of people that wrote PNG  still functions to discuss PNG and to consider updates to the specification (via an extension registry not by changes to the main spec). It has occasional bursts of activity. It has it's own, lightweight, process involving a minimum duration of involvement before getting to vote.<br>\nYou can see that not much happens by looking at the revision history section in<br>\n<a rel=\"nofollow\" href=\"http://www.libpng.org/pub/png/spec/register/pngreg-1.4.6-pdg.html\">http://www.libpng.org/pub/png/spec/register/pngreg-1.4.6-pdg.html</a><br>\nand<br>\n<a rel=\"nofollow\" href=\"http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html\">http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html</a></p>\n<p>The second edition was done jointly with ISO. It included errata from the first edition, but the majority of the work was to comply with ISO requirements on wording and document structure, and to then ensure the resulting spec was technically identical to the original wording. Having gone through that process, it was a lot of effort for little gain.</p>\n<p>The ISO and W3C versions of PNG second edition are precisely identical, except for the cover pages. The W3C one is free and the ISO one is on paper and costs money. Copyright is joint; W3C copyright on ours, ISO copyright on theirs.</p>\n<p>The APNG proposal was voted on but  rejected (I voted in favour). Since then it had a little implementation (in Mozilla and in the old, Presto-based Opera). In 2016 Apple also added support (at the OS level, for the iOS iMessage app).<br>\n<a rel=\"nofollow\" href=\"http://caniuse.com/#search=apng\">http://caniuse.com/#search=apng</a></p>\n<p>Google was always opposed because they wanted to promote WebP instead, although that continues to be discussed and experimental (non-shipping) support is going in as of July 2016:<br>\n<a rel=\"nofollow\" href=\"https://bugs.chromium.org/p/chromium/issues/detail?id=1171\">https://bugs.chromium.org/p/chromium/issues/detail?id=1171</a><br>\nand now seesm to be ready to ship<br>\n<a rel=\"nofollow\" href=\"https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/KcMjmFOgG2w\">https://groups.google.com/a/chromium.org/forum/#!topic/blink-dev/KcMjmFOgG2w</a></p>\n<p>Microsoft was neither for or against. There is a uservoice for it<br>\n<a rel=\"nofollow\" href=\"https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6513393-apng-animated-png-images-support-firefox-and-sa\">https://wpdev.uservoice.com/forums/257854-microsoft-edge-developer/suggestions/6513393-apng-animated-png-images-support-firefox-and-sa</a></p>\n<p>It would be valuable to get the APNG spec rolled back into the PNG spec (MNG is a separate, and largely failed, specification). However, from a W3C perspective, that was only worth doing if at least one of Google or Microsoft planned to ship APNG support in their browser. Getting support into the main libpng software library would also be a benefit.</p>\n<p>That work would also roll in the extensions:<br>\n<a rel=\"nofollow\" href=\"http://www.libpng.org/pub/png/spec/register/pngreg-1.4.6-pdg.html\">http://www.libpng.org/pub/png/spec/register/pngreg-1.4.6-pdg.html</a><br>\n<a rel=\"nofollow\" href=\"http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html\">http://www.libpng.org/pub/png/spec/register/pngext-1.4.0-pdg.html</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "APNG",
@@ -1947,6 +2016,7 @@
   },
   {
     "number": 108,
+    "body": "<p>See <a rel=\"nofollow\" href=\"http://lists.w3.org/Archives/Public/site-comments/2018Jan/0005.html\">http://lists.w3.org/Archives/Public/site-comments/2018Jan/0005.html</a> and <a rel=\"nofollow\" href=\"https://datatracker.ietf.org/doc/draft-handrews-json-schema/\">https://datatracker.ietf.org/doc/draft-handrews-json-schema/</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "JSON schema",
@@ -1976,6 +2046,7 @@
   },
   {
     "number": 65,
+    "body": "<p>Might be useful in many cases, including digital publishing, so here is the start of the thread:</p>\n<p><a rel=\"nofollow\" href=\"https://lists.w3.org/Archives/Team/team-strat/2016Dec/0000.html\">https://lists.w3.org/Archives/Team/team-strat/2016Dec/0000.html</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Navigation Transitions",
@@ -2003,6 +2074,7 @@
   },
   {
     "number": 39,
+    "body": "<p>conversation with @philarcher1, cc <a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=7383985\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/nitedog\">@nitedog</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Accessible Wayfinding",
@@ -2030,6 +2102,7 @@
   },
   {
     "number": 26,
+    "body": "",
     "quadrant": 0,
     "ring": 4,
     "label": "RTC vNext",
@@ -2050,6 +2123,7 @@
   },
   {
     "number": 147,
+    "body": "<p>Beginning the process for a workshop. The (draft) Web Site has been set up:</p>\n<p><a rel=\"nofollow\" href=\"https://www.w3.org/2019/archival-workshop/\">https://www.w3.org/2019/archival-workshop/</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "W3C Workshop on archival",
@@ -2084,6 +2158,7 @@
   },
   {
     "number": 183,
+    "body": "<p>Mini Programs/Quick Apps are small, install-free, fast-loading programs which typically are run inside other, larger native applications. They use a mixture of native and Web capabilities. Currently, these are mostly used in China. Examples:</p>\n<ul>\n<li><a href=\"https://mp.360.cn/\" rel=\"nofollow\">360 Mini Programs</a></li>\n<li><a href=\"https://open.alipay.com/channel/miniIndex.htm\" rel=\"nofollow\">Alipay Mini Apps</a></li>\n<li><a href=\"https://smartprogram.baidu.com/developer/index.html\" rel=\"nofollow\">Baidu Smart Programs</a></li>\n<li><a href=\"https://developer.toutiao.com/\" rel=\"nofollow\">ByteDance Mini Programs</a></li>\n<li><a href=\"https://www.quickapp.cn/\" rel=\"nofollow\">Quick Apps</a></li>\n<li><a href=\"https://developers.weixin.qq.com/miniprogram/dev/framework/\" rel=\"nofollow\">WeChat Mini Programs</a></li>\n</ul>\n<p>We're still bikeshedding a unified English name for it: <a class=\"issue-link js-issue-link\" data-error-text=\"Failed to load issue title\" data-id=\"447962815\" data-permission-text=\"Issue title is private\" data-url=\"https://github.com/w3c/chinese-ig/issues/152\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/chinese-ig/issues/152/hovercard\" href=\"https://github.com/w3c/chinese-ig/issues/152\">w3c/chinese-ig#152</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Mini Programs & Quick Apps",
@@ -2110,6 +2185,7 @@
   },
   {
     "number": 104,
+    "body": "<p>With advancement in technologies like Service Workers or appmanifest, we're getting closer to be able to use Web technologies to replace native approaches. But, what's our list of requirements for a good Web application that is intended to run on all devices, online/offline, secured, efficient, accessible, etc.? With those PWAs getting into application stores, we should expect to see different expectations rising.</p>\n<p><a rel=\"nofollow\" href=\"https://developer.mozilla.org/en-US/Apps/Progressive\">https://developer.mozilla.org/en-US/Apps/Progressive</a><br>\n<a rel=\"nofollow\" href=\"https://developers.google.com/web/progressive-web-apps/checklist\">https://developers.google.com/web/progressive-web-apps/checklist</a></p>\n<p>Indirectly, the addition of PWAs into the Windows Store will also set some criteria as well:<br>\n<a rel=\"nofollow\" href=\"https://www.windowscentral.com/microsoft-teams-and-progressive-web-apps-coming-soon-windows-store\">https://www.windowscentral.com/microsoft-teams-and-progressive-web-apps-coming-soon-windows-store</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "What is a PWA?",
@@ -2136,6 +2212,7 @@
   },
   {
     "number": 102,
+    "body": "<p>It seems that the <a href=\"https://www.w3.org/community/rdfjs/\" rel=\"nofollow\">RDFJS Community Group</a> is more active than I thought; there are some initial specs for <a href=\"https://www.bergnet.org/2017/08/rdf-ext-v1-release/\" rel=\"nofollow\">RDFJS</a>. This <em>may</em> at some point come back to us, depending on what priority we want to give to this.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "RDF JS",
@@ -2161,6 +2238,7 @@
   },
   {
     "number": 172,
+    "body": "<p>Shivan Kaul Sahib <a href=\"mailto:shivankaulsahib@gmail.com\">shivankaulsahib@gmail.com</a> expressed interest in a workshop on telemetry (at IETF104 in March 2019).  Shivan is taking the action to explore level of interest.</p>\n<p>Some starting points:</p>\n<ul>\n<li>Prio, a system invented by Henry Corrigan-Gibbs and Dan Boneh: <a href=\"https://crypto.stanford.edu/prio/paper.pdf\" rel=\"nofollow\">https://crypto.stanford.edu/prio/paper.pdf</a></li>\n<li>Mozilla's implementation: <a href=\"https://hacks.mozilla.org/2018/10/testing-privacy-preserving-telemetry-with-prio/\" rel=\"nofollow\">https://hacks.mozilla.org/2018/10/testing-privacy-preserving-telemetry-with-prio/</a></li>\n<li>Frank Brockners and Benoît Claise's presentation at IETF104.</li>\n<li>Seda Guerses at KU Leuven</li>\n</ul>",
     "quadrant": 0,
     "ring": 4,
     "label": "Telemetry workshop",
@@ -2184,6 +2262,7 @@
   },
   {
     "number": 27,
+    "body": "",
     "quadrant": 0,
     "ring": 4,
     "label": "Mobile",
@@ -2201,6 +2280,7 @@
   },
   {
     "number": 60,
+    "body": "<p><em>This is a stub to be expanded</em></p>\n<h2>Introduction</h2>\n<p>There is increasing use of AI for a wide range of applications based upon deep learning with multi-layer neural networks for classification and control. These have drawbacks in requiring very large amounts of training data, and suffering from a lack transparency. This becomes an issue when AI is used for making decisions that effect people. If the decision is challenged people will demand but not receive an explanation as to why their loan request was reused, or why their insurance premium is so high.</p>\n<p>Symbolic representations by contrast enable explanations based upon named relationships and inferences across them. For this reason it is interesting to explore the means to combine symbolic representations with the numerical weights featured in neural networks. The Cognitive Web is an extension of the Semantic Web that combines the Semantic Web with concepts and techniques from Cognitive Science. In particular, associating weights and time stamps with triples and nodes in RDF Graphs as a basis for cognitively plausible models of memory retrieval and rule activation, and based upon work on <a href=\"http://act-r.psy.cmu.edu/peoplepages/ja/\" rel=\"nofollow\">John R. Anderson</a> on <a href=\"http://act-r.psy.cmu.edu/\" rel=\"nofollow\">ACT-R</a>.</p>\n<p>This is relevant to W3C as an evolution of the Semantic Web and Linked Data to support cognitively plausible mechanisms of recall and reasoning as a basis for future services.</p>\n<h2>Architecture</h2>\n<p>The following is adopted from ACT-R by expanding ACT-R's chunks to RDF's triples.</p>\n<ul>\n<li>Cognitive Graph with a set of triples</li>\n<li>Conditon-Action rules</li>\n<li>Input and Output buffers</li>\n<li>Goal stacks</li>\n</ul>\n<p>The weights and timestamps are updated to reflect a mathematical model of utility. This applies to both graphs and the rules that operate on them. The rule language would be based upon the shape rule language (SHRL).</p>\n<h2>Next steps</h2>\n<p>An initial investigation in the form of a proof of concept implementation and application to selected use cases. This would be followed by the launch of a W3C incubation group to take the work further.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Sentient Web",
@@ -2227,6 +2307,7 @@
   },
   {
     "number": 72,
+    "body": "<p>Ambisonic (4D W X Y Z) spatial audio, independent of number of speakers used to realize it.<br>\nImportant abstraction to promote hardware independence as well as audio fidelity and content reuse.<br>\n<a rel=\"nofollow\" href=\"https://en.wikipedia.org/wiki/Ambisonics\">https://en.wikipedia.org/wiki/Ambisonics</a><br>\n<a href=\"https://github.com/google/spatial-media\">https://github.com/google/spatial-media</a><br>\n<a rel=\"nofollow\" href=\"https://www.asoundeffect.com/ambisonics-primer/\">https://www.asoundeffect.com/ambisonics-primer/</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Spatial audio/ambisonics",
@@ -2249,20 +2330,25 @@
   },
   {
     "number": 17,
+    "body": "<p>See MLS vocab <a rel=\"nofollow\" href=\"http://ml-schema.github.io/documentation/ML%20Schema.html\">http://ml-schema.github.io/documentation/ML%20Schema.html</a> from MLS CG <a rel=\"nofollow\" href=\"https://www.w3.org/community/ml-schema/\">https://www.w3.org/community/ml-schema/</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Vocabularies for exchanging output of Machine Learning, NLP etc. ",
     "active": false,
     "link": "https://github.com/w3c/strategy/issues/17",
     "moved": 0,
-    "updatedAt": "2017-07-13T19:38:21Z",
-    "lastActiveAt": "2017-07-13T19:38:21Z",
+    "updatedAt": "2019-08-07T14:46:15Z",
+    "lastActiveAt": "2019-08-07T14:46:15Z",
     "assignees": [],
     "comments": [
       "2016-10-18T08:21:48Z",
       "2017-04-07T13:33:18Z"
     ],
     "labels": [
+      {
+        "color": "a7c7f2",
+        "name": "AI"
+      },
       {
         "color": "d4c5f9",
         "name": "Data"
@@ -2271,6 +2357,7 @@
   },
   {
     "number": 62,
+    "body": "<p>The increasing popularity of ad blockers and the difficulties that face some categories of business in monetizing their content suggests that it is time for a fresh approach.  W3C work on Web payments is seeking to make it easier for people to pay for services, but for advertising based business models, what can be done to give consumers greater transparency in respect to the collection of tracking data and the value that is provided in exchange. One idea is to allow websites to offer a choice for how people sign on to the site.</p>\n<ul>\n<li>anonymously</li>\n<li>with a loyalty scheme</li>\n<li>with a site specific account</li>\n<li>with some form of payment</li>\n</ul>\n<p>Where the site is able to offer different levels of service according to how consumers chose to sign on.</p>\n<p>Note that loyalty schemes could be specific to a given site or common across a group of organizations. Such schemes would offer a clearer value proposition to consumers in terms of what benefits they get, and how they are tracked and what purposes this data is put to and with what limitations.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Time for fresh thinking about privacy, advertising and loyalty schemes",
@@ -2288,6 +2375,7 @@
   },
   {
     "number": 106,
+    "body": "<p>Potential use cases for browser interactions</p>\n<ul>\n<li>transit (ticketing)</li>\n<li>payments (e.g., pay at the pump, candy machine)</li>\n</ul>",
     "quadrant": 0,
     "ring": 4,
     "label": "Physical Web interactions (e.g., transit, payment)",
@@ -2322,6 +2410,7 @@
   },
   {
     "number": 82,
+    "body": "<p>As sites begin to turn away browsers in incognito or private mode, will browsers be forced to run in modes that provide less privacy?  Can we make incognito or private mode less identifiable?</p>\n<p>Example of the day:<br>\n<a rel=\"nofollow\" href=\"https://arstechnica.com/information-technology/2017/05/boston-globe-website-no-longer-lets-you-read-articles-in-private-mode/\">https://arstechnica.com/information-technology/2017/05/boston-globe-website-no-longer-lets-you-read-articles-in-private-mode/</a></p>\n<p>Some sample detection code:<br>\n<a rel=\"nofollow\" href=\"https://gist.github.com/cou929/7973956\">https://gist.github.com/cou929/7973956</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Detection of incognito / private browsing mode",
@@ -2351,6 +2440,7 @@
   },
   {
     "number": 56,
+    "body": "<p>Collecting information about the support for <a href=\"https://www.w3.org/TR/WCAG20-TECHS/\" rel=\"nofollow\">WCAG Techniques</a> in:</p>\n<ul>\n<li>web technologies</li>\n<li>browsers and media players</li>\n<li>assistive technology</li>\n</ul>\n<p>Similar to platforms like <a href=\"http://caniuse.com/\" rel=\"nofollow\">Can I use</a> but on entire Techniques rather than on browser implementation of specific technology features. For example, <a href=\"https://www.w3.org/TR/WCAG20-TECHS/complete.html#ARIA9\" rel=\"nofollow\">Technique ARIA 9</a> does not only require the browser to implement \"aria-labelledby\" but also that a particular use of this attribute is supported by assistive technologies.</p>\n<p>A <a href=\"https://www.w3.org/WAI/accessibility-support/\" rel=\"nofollow\">prototype \"Accessibility Support Database\"</a> was previously developed through EU project funds. Concentrated effort would be needed to get crowd sourcing by individuals and organizations in the community.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "accessibility support data",
@@ -2375,6 +2465,7 @@
   },
   {
     "number": 134,
+    "body": "<p>Conversational Agents (<em>aka</em> chatbots and intelligent assistants) are very popular for customer service, whether text based agents embedded in web pages, or speech-based. There are a range of conversational agents markup languages, and <a href=\"https://en.wikipedia.org/wiki/AIML\" rel=\"nofollow\">AIML</a> is one of the best known. Others include BOTML, SIML, and CML.  Is it timely for W3C to organize a workshop on conversational agents to see if there is interest in standardizing a chatbot markup language and scripting API given the commercial popularity of chatbots? The workshop could include proposals for extending SSML for conversational agents (see <a href=\"https://developer.amazon.com/blogs/alexa/post/5c631c3c-0d35-483f-b226-83dd98def117/new-ssml-features-give-alexa-a-wider-range-of-natural-expression\" rel=\"nofollow\">Amazon's extensions</a>), the possibility of standard logging formats as a basis for machine learning tools, and the role of intents as a means to support ecosystems of services, where third parties register an intent for a particular service, or just for ease of maintenance through modularising conversational agents into conversations covering particular intents.</p>\n<p>Intelligent assistants will benefit from access to personal information that enables a positive customer service interaction. This points to new opportunities for managing privacy in innovative ways.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Chatbots",
@@ -2402,6 +2493,7 @@
   },
   {
     "number": 98,
+    "body": "<p>While equally important for accessibility, the <a href=\"https://www.w3.org/WAI/intro/atag\" rel=\"nofollow\">W3C Authoring Tool Accessibility Guidelines (ATAG)</a> is not as widely recognized and supported as WCAG. Several activities could be carried out, including:</p>\n<ul>\n<li>Promotional, translation, and awareness-raising campaigns</li>\n<li>Technical guidance for authoring tool developers and integrators</li>\n<li>Resources for users of authoring tools, such as on configuration</li>\n</ul>",
     "quadrant": 0,
     "ring": 4,
     "label": "Authoring Tool Accessibility",
@@ -2427,6 +2519,7 @@
   },
   {
     "number": 186,
+    "body": "<p>Google has announced its intent to standardize robots.txt</p>\n<blockquote>\n<p>For 25 years, the Robots Exclusion Protocol (REP) was only a de-facto standard.<br>\n(...)<br>\nToday, we announced that we're spearheading the effort to make the REP an internet standard.</p>\n</blockquote>\n<ul>\n<li><a href=\"https://webmasters.googleblog.com/2019/07/repp-oss.html\" rel=\"nofollow\">Google's robots.txt parser is now open source - Monday, July 01, 2019</a></li>\n<li><a href=\"https://webmasters.googleblog.com/2019/07/a-note-on-unsupported-rules-in-robotstxt.html\" rel=\"nofollow\">A note on unsupported rules in robots.txt</a></li>\n</ul>",
     "quadrant": 0,
     "ring": 4,
     "label": "Robots Exclusion Protocol (REP) \"robots.txt\" standardization",
@@ -2444,6 +2537,7 @@
   },
   {
     "number": 167,
+    "body": "<p>The <a href=\"https://wicg.github.io/scroll-animations/\" rel=\"nofollow\">Scroll-linked Animations</a> specification defines a declarative mechanism based on CSS properties to adjust the user interface based on the current scroll position, for example to shrink the top navigation menu as the user starts scrolling, or to display a progress bar.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Scroll-linked animations",
@@ -2466,6 +2560,7 @@
   },
   {
     "number": 69,
+    "body": "<p>From the Responsive Issues Community Group<br>\n<a rel=\"nofollow\" href=\"http://ricg.io/\">http://ricg.io/</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Container Queries",
@@ -2487,6 +2582,7 @@
   },
   {
     "number": 61,
+    "body": "<p>Linked Data can play a role as a <em>lingua franca</em> for data and metadata, as a means to bridge different platforms and standards. Ontology languages like OWL focus on inferencing and not on validation. There is however an increasing need to be able to validate RDF graphs against a set of rules, and a need for rules that transform RDF graphs. One use case is to validate descriptions of things in the Web of things, and to verify that a thing that claims to support a given semantic model actually satisfies the constraints defined by that model. Another is to transform a description of a class of things into a specific thing.</p>\n<p>A further criteria is that the rule language should be easy to understand by non-specialists, and lend itself to editing tools, e.g. graphical user interfaces.  One promising direction is based upon augmented transition networks (ATNs) which were developed in the late 60's and early 70's for natural language parsing and has a natural representation as diagrams.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Linked Data validation and transformation",
@@ -2508,6 +2604,7 @@
   },
   {
     "number": 29,
+    "body": "",
     "quadrant": 0,
     "ring": 4,
     "label": "Graph processing & Querying",
@@ -2529,6 +2626,7 @@
   },
   {
     "number": 176,
+    "body": "<p>Hi all,</p>\n<p>Can we find ways to reduce (JavaScript in particular) fingerprinting? Should we have a workshop on this?</p>\n<p>Ian</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Reduce fingerprinting on the Web",
@@ -2551,6 +2649,7 @@
   },
   {
     "number": 36,
+    "body": "<p>The Web Payments Working Group is focusing on the payment transaction. There is an opportunity for future work on the commercial transaction of which the payment is just a part. When you use a credit card in a brick and mortar store, you are given the credit card transaction receipt and a receipt that lists what you purchased along with the associated terms and conditions. This is what you need to keep if you want to return the goods. There is an opportunity for work on standards for digital receipts that can be issued electronically at the time of purchase. One use case is when are checking out at a store and you are required to provide a receipt to prove that you purchased an item, that you are carrying, in another store. Another use case is to enable third party applications to have access to the digital receipts for your purchases, e.g. to provide categorised summaries on a monthly basis. One idea is to use annotated HTML to enable machine interpretation whilst giving the issuer control over the branding and look of the receipt.</p>\n<p>This is related to other opportunities on loyalty schemes, discount coupons, and prepaid vouchers, tickets for events (e.g. concerts) and even for metropolitan transportation.  A common thread is the idea of a digital wallet with open standards for data formats and APIs.  This work could be picked up by the Web Payments Interest Group, but a good first step could be a W3C workshop  to bring together a broad range of stakeholders to discuss the opportunities and see if there is sufficient interest to take these ideas further.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Digital Receipts",
@@ -2578,6 +2677,7 @@
   },
   {
     "number": 74,
+    "body": "<p><a href=\"https://www.w3.org/community/mixedreality/\" rel=\"nofollow\">Mixed Reality Service Community Group</a>, also appeared as part of a keynote of the current chair (Mark Pesce) at WWW2017.</p>\n<p>The idea is to assign an HTTP URI to any geospatial coordinate; when this coordinate URI is de-referenced, the system returns metadata about that coordinate position. Applications may include, beyond relationships to geospatial, use cases in, say, Web of Things.</p>\n<p>There is a <a href=\"https://mixedrealitysystem.org/spec/Mixed_Reality_Service_Specification_THIRD_DRAFT.pdf\" rel=\"nofollow\">very initial spec</a> and some <a href=\"https://mixedrealitysystem.org/uses/\" rel=\"nofollow\">use cases</a>.</p>\n<p>Whether this leads anywhere remains to be seen. Is part of exploration for now.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Mixed Reality Service",
@@ -2608,6 +2708,7 @@
   },
   {
     "number": 90,
+    "body": "<p>Browsers need to natively support image/audio/video codecs in order for content to be rendered. Polyfills are possible to work around lack of support but they require messing with the DOM e.g. to replace <code>&lt;img&gt;</code> tags.</p>\n<p>A system enabling to write and distribute these algorithms in JavaScript and get them integrated in the overall media flow of user agents would provide much greater freedom to specialize and innovate in this space.</p>\n<p>Performance would obviously be an issue although maybe not so much with the advent of WebAssembly, SIMD and Service Workers for background processing.</p>\n<p>See the <a href=\"https://discourse.wicg.io/t/custom-image-audio-video-codec-apis/1270\" rel=\"nofollow\">Custom image/audio/video codec APIs</a> proposal in WICG.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "JS hooks for media codecs",
@@ -2630,6 +2731,7 @@
   },
   {
     "number": 85,
+    "body": "<p>It is already possible to render 360° videos within a <code>&lt;video&gt;</code> element using MSE and custom controls, but the Web application needs to handle control interactions and adjust the underlying adaptive streaming accordingly.</p>\n<p>It is also possible to render 360° videos within a VR headset through the WebVR spec, and spatialize audio through the Web Audio API, but the application needs to work with bytes and pixels for that to happen.</p>\n<p>In both cases, native support for 360° video rendering would both simplify the life of developers and, more importantly, allow to take advantage of the device's capabilities for improved performance and efficiency.</p>\n<p>This was identified as a topic of interest in the <a href=\"https://www.w3.org/2016/06/vr-workshop/report.html#next-steps\" rel=\"nofollow\">report of the Web &amp; Virtual Reality Workshop</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "360° video rendering",
@@ -2651,6 +2753,7 @@
   },
   {
     "number": 132,
+    "body": "<p>Processing of video frames in a separate worker has been in the air for some time and, for instance, the purpose of the now-discontinued <a href=\"https://w3c.github.io/mediacapture-worker/\" rel=\"nofollow\">Media Capture Stream with Worker</a> spec.</p>\n<p>The idea was discussed again during last WebRTC WG F2F with interest expressed to explore that space, see <a href=\"https://lists.w3.org/Archives/Public/public-webrtc/2018Jun/0191.html\" rel=\"nofollow\">summary of discussions</a>.</p>\n<p>Use cases include things such as \"Funny hats\", voice distortion, AR applications, and echo cancellers. Note that these use cases are not restricted to WebRTC. They apply to usual media applications.</p>\n<p>Use of a <a href=\"https://drafts.css-houdini.org/worklets/#worklet\" rel=\"nofollow\">worklet</a> is needed to avoid having to copy data over a worker's boundaries, allowing to improve performance. Given the heavy processing involved, WebAssembly would seem needed in most cases.</p>\n<p>Some questions that may be worth exploring:</p>\n<ul>\n<li>Can the processing be done using the GPU instead of the CPU to further improve performances. How to avoid copying data in that case?</li>\n<li>How to interact with the media pipeline, typically when a hardware decoder is being used to render the media?</li>\n</ul>",
     "quadrant": 0,
     "ring": 4,
     "label": "Media worklet",
@@ -2671,6 +2774,7 @@
   },
   {
     "number": 165,
+    "body": "<p>Proposed API allowing web applications to set a taskbar or home screen icon badge:</p>\n<ul>\n<li><a href=\"https://github.com/WICG/badging/blob/master/explainer.md\">Explainer</a></li>\n<li><a href=\"https://wicg.github.io/badging/\" rel=\"nofollow\">Draft spec</a></li>\n</ul>",
     "quadrant": 0,
     "ring": 4,
     "label": "Badging API",
@@ -2691,6 +2795,7 @@
   },
   {
     "number": 166,
+    "body": "<p>A proposal to avoid janks during DOM updates by freezing rendering of a DOM element and its subtree while these updates are being done. See the <a href=\"https://github.com/WICG/display-locking/blob/master/explainer.md\">explainer</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Display locking",
@@ -2711,6 +2816,7 @@
   },
   {
     "number": 187,
+    "body": "<p>The Telegram Team announced on July 6, 2019 their replacement of the GIF format.</p>\n<p>From: <a rel=\"nofollow\" href=\"https://telegram.org/blog/animated-stickers\">https://telegram.org/blog/animated-stickers</a></p>\n<blockquote>\n<p>We launched stickers back in January 2015. Since then, the Telegram sticker format has been adopted by other apps to reach a total of 2 billion people. Today we're introducing a new format for animated stickers.<br>\n(...)</p>\n<h3>Smooth Animations, Tiny Size</h3>\n<p>Telegram engineers experimented with vector graphics, packaging methods and forbidden magic to create the Lottie-based .TGS format, in which each sticker takes up about 20-30 Kilobytes – six times smaller than the average photo.</p>\n<p>Thanks to various optimizations, animated stickers consume less battery than GIFs and run at a smooth 60 frames per second. If a picture is worth a thousand words, that's 180,000 words per sticker.</p>\n<h3>Open Platform</h3>\n<p>Naturally, animated stickers are a free platform. All artists are welcome to create new sets and share them with Telegram users.</p>\n<p>Like its static predecessor, the Telegram animated sticker format is likely to become the new industry standard in messaging.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 4,
     "label": "Telegram Animated Stickers format",
@@ -2726,6 +2832,7 @@
   },
   {
     "number": 136,
+    "body": "<p>Relates to: 3DS, Web AuthN, EAT (IETF)<br>\n<a rel=\"nofollow\" href=\"https://tools.ietf.org/html/draft-mandyam-eat-00\">https://tools.ietf.org/html/draft-mandyam-eat-00</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "User confidence signals /EAT",
@@ -2749,6 +2856,7 @@
   },
   {
     "number": 105,
+    "body": "<p>EPUB3 uses a (fairly stripped down) version of SMIL for various purposes, primarily in the area of accessibility. The <a href=\"https://www.w3.org/community/sync-media-pub/\" rel=\"nofollow\">Synchronized Multimedia for Publications Community Group</a> plans to look into OWP friendly ways to reproduce that minimal level of information. This is necessary because no browser implements SMIL (except for some features as part of their SVG implementations).</p>\n<p>This CG <em>may</em> lead to a WG proposal if the work is successful.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Synchronized Multimedia for Publications",
@@ -2779,6 +2887,7 @@
   },
   {
     "number": 101,
+    "body": "<p><a href=\"https://medium.com/the-making-of-appear-in/open-feature-request-callsession-api-6f4228a21091\" rel=\"nofollow\">Suggested by the appear.in team</a></p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Call session API for WebRTC apps",
@@ -2801,6 +2910,7 @@
   },
   {
     "number": 57,
+    "body": "<p>Develop use cases on accessibility needs for Web of Things. Specifically:</p>\n<ul>\n<li>protocol-level requirements to ensure accessible interaction with sensors and devices</li>\n<li>data-level requirements to ensure the necessary flow of accessibility information</li>\n</ul>\n<p>Accessible Platform Architecture (APA) working group has an initial <a href=\"https://www.w3.org/WAI/APA/wiki/Web_of_Things\" rel=\"nofollow\">stub page</a> but more use cases are needed.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "use cases for WoT accessibility",
@@ -2822,6 +2932,7 @@
   },
   {
     "number": 157,
+    "body": "<p>Explainer: <a href=\"https://github.com/nondebug/webhid/blob/master/EXPLAINER.md\">https://github.com/nondebug/webhid/blob/master/EXPLAINER.md</a></p>\n<blockquote>\n<p>The web platform already supports many types of devices that use the HID protocol, including mice, keyboards, touchscreens, and gamepads. However, there are many other HID devices that are inaccessible to the web. The WebHID API enables web applications to request access to HID devices, send and receive HID reports, and retrieve information about the report descriptor.</p>\n</blockquote>\n<hr>\n<blockquote>\n<p>The web platform already supports input from HID. Keyboards, pointing devices (mice, touchscreens, etc.), and gamepads are all typically implemented using the HID protocol. However, this support relies on the operating system's HID drivers that transform the HID input into native input APIs. Devices that are not well supported by the HID driver are often inaccessible to web pages. Similarly, the outputs on most devices are also inaccessible.</p>\n<p>The inability to access uncommon or unusual HID devices is particularly painful when it comes to gamepad support. Gamepads designed for PC often use HID for gamepad inputs (buttons, joysticks, triggers) and outputs (LEDs, rumble). However, gamepads inputs and outputs are not well standardized and web browsers often require custom logic for specific devices. This is unsustainable and results in poor support for the long tail of older and uncommon devices. It also causes the browser to depend on quirks present in the behavior of specific devices.</p>\n<p>A HID standard for the web platform would allow the device-specific logic to be moved into javascript for devices that lack support in the browser.</p>\n</blockquote>",
     "quadrant": 0,
     "ring": 4,
     "label": "WebHID",
@@ -2842,6 +2953,7 @@
   },
   {
     "number": 35,
+    "body": "<p>Web browsers can be used to provide user interfaces for services for the Web of Things. This can be implemented using JavaScript and the browser supported protocols (HTTP, WebSockets, WebRTC). There is a further opportunity for using Web browsers for installing apps onto your smart home hub when visiting a vendor's website. This raises challenges around how the browser identifies the home hub, and gets the user's permission for installing the app, along with the associated security and privacy concerns. I am expecting home hubs that support apps written in JavaScript, and this raises opportunities for re-use of browser APIs on home hubs.  This will require incubation, but a first step could be a workshop that looks at web of things related work across different groups as well as the expected need for new standards. A workshop would bring together people from different communities and help prepare the ground for further collaboration.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "Browsers and the Web of Things",
@@ -2859,6 +2971,7 @@
   },
   {
     "number": 99,
+    "body": "<p>The <a href=\"https://www.w3.org/WAI/intro/earl\" rel=\"nofollow\">W3C Evaluation and Report Language (EARL)</a> was on REC-track for many years, but never entered into CR because of known lack of implementations. Now there seems to be growing support for EARL implementations, and we can revisit the completion of this spec.</p>",
     "quadrant": 0,
     "ring": 4,
     "label": "EARL",
@@ -2884,6 +2997,7 @@
   },
   {
     "number": 141,
+    "body": "<p>Overview: <a href=\"https://github.com/WICG/writable-files\">https://github.com/WICG/writable-files</a><br>\nExplainer: <a href=\"https://github.com/WICG/writable-files/blob/master/EXPLAINER.md\">https://github.com/WICG/writable-files/blob/master/EXPLAINER.md</a></p>\n<blockquote>\n<p>Today, if a web site wants to create experiences involving local files (document editor, image compressor, etc.) they are at a disadvantage to native apps. A web site must ask the user to reopen a file every time they want to edit it. After opening, the site can only save changes by re downloading the file to the Downloads folder. A native app, by comparison, can maintain a most recently used list, auto save, and save files anywhere the user wants.</p>\n<ul>\n<li>Open local file to read</li>\n<li>Open local file to edit and then save</li>\n<li>Open local file to edit with auto save</li>\n<li>Create and save a new file</li>\n<li>Delete an existing file</li>\n<li>Read meta data about files</li>\n</ul>\n</blockquote>",
     "quadrant": 0,
     "ring": 4,
     "label": "Writable files",
@@ -2906,6 +3020,7 @@
   },
   {
     "number": 114,
+    "body": "<p><a href=\"http://www.cityjson.org/\" rel=\"nofollow\">CityJSON</a> is a format for encoding a subset of the <a href=\"https://www.citygml.org/\" rel=\"nofollow\">CityGML</a> data model, an OGC standard, using JSON. A CityJSON file represents both the geometry and the semantics of the city features of a given area, e.g. buildings, roads, rivers, the vegetation, and the city furniture.</p>\n<p>The proposal is driven by Hugo Ledoux (<a class=\"user-mention\" data-hovercard-type=\"user\" data-hovercard-url=\"/hovercards?user_id=1546518\" data-octo-click=\"hovercard-link-click\" data-octo-dimensions=\"link_type:self\" href=\"https://github.com/hugoledoux\">@hugoledoux</a>), working at Delft University of Technology.</p>\n<p>See:</p>\n<ul>\n<li><a href=\"https://www.dropbox.com/s/5df81zihl9gixnz/cityjson-2018-02-15.pdf?dl=0\" rel=\"nofollow\">Presentation slides</a> that describe the rationale for the proposal and comparison points with other formats such as <a href=\"http://geojson.org/\" rel=\"nofollow\">GeoJSON</a>, <a href=\"https://github.com/topojson/topojson#topojson\">TopoJSON</a>, and of course <a href=\"https://www.citygml.org/\" rel=\"nofollow\">CityGML</a></li>\n<li><a href=\"https://github.com/tudelft3d/cityjson/\">GitHub repository tudelft3d/cityjson</a></li>\n<li><a href=\"https://www.w3.org/2018/02/20-sdw-minutes.html#x12\" rel=\"nofollow\">Minutes of CityJSON discussions</a> during the Spatial Data on the Web IG F2F in Amersfoort, 20 February 2018.</li>\n</ul>",
     "quadrant": 0,
     "ring": 5,
     "label": "CityJSON",
@@ -2934,6 +3049,7 @@
   },
   {
     "number": 7,
+    "body": "<p>CG: <a rel=\"nofollow\" href=\"https://www.w3.org/community/hb-secure-services/\">https://www.w3.org/community/hb-secure-services/</a><br>\nCG Report: <a rel=\"nofollow\" href=\"https://rawgit.com/w3c/websec/gh-pages/hbss.html\">https://rawgit.com/w3c/websec/gh-pages/hbss.html</a></p>",
     "quadrant": 0,
     "ring": 5,
     "label": "Hardware-Based Secure Services",
@@ -2959,6 +3075,7 @@
   },
   {
     "number": 40,
+    "body": "<p>There is a <a href=\"https://www.w3.org/community/music-notation/\" rel=\"nofollow\">community group</a>:</p>\n<blockquote>\n<p>The Music Notation Community Group develops and maintains format and language specifications for notated music used by web, desktop, and mobile applications. The group aims to serve a broad range of users engaging in music-related activities involving notation, and will document these use cases.</p>\n<p>The initial task of the Community Group is to maintain and update the MusicXML and SMuFL (Standard Music Font Layout) specifications. The goals are to evolve the specifications to handle new use cases and technologies, including greater use of music notation on the web, while maximizing the existing investment in implementations of the existing MusicXML 3.0 and SMuFL specifications.</p>\n</blockquote>\n<p>They <em>may</em> come back to us at some point to try to get this notation through a WG</p>",
     "quadrant": 0,
     "ring": 5,
     "label": "Music Notation",
@@ -2978,6 +3095,7 @@
   },
   {
     "number": 41,
+    "body": "<p>There is a <a href=\"https://www.w3.org/community/pom/\" rel=\"nofollow\">community group</a></p>\n<blockquote>\n<p>The goal of this CG is to develop specs to describe an object model for Publications (think EPUB, PDF, OOXML, and other complex friends) that hides the complexity of package, metadata and resource access inside those formats. A secondary goal is the development and release of a multi-purpose framework, in at least JavaScript and if possible c++ too, implementing those specs.</p>\n</blockquote>\n<p>Though not verbatim, but the work may also be of interest for a future DPUB WG</p>",
     "quadrant": 0,
     "ring": 5,
     "label": "Publication Object Model",
@@ -3002,6 +3120,7 @@
   },
   {
     "number": 16,
+    "body": "<p>Early conversations underway that could lead to profound advance in the way scientific research is shared and the Web is used to make connections. Currently way too early for any detail but potential is substantial.</p>",
     "quadrant": 0,
     "ring": 5,
     "label": "Commission on research data standards",
@@ -3024,6 +3143,7 @@
   },
   {
     "number": 75,
+    "body": "<p>RDF triples can be collected in named graphs and statements made about those triples. Reification has also been a feature of RDF since the beginning. However, the topic keeps coming up for how one can assert that a triple holds for a defined period of time, or that it is true with x% probability. The ideas have been the basis of experiments but nothing concrete has emerged and there's no consensus as yet. One <em>possible</em> way forward might be some additional syntax for up to 7 tuples that can be transformed into one-triple named graphs. Too early to say.</p>\n<p>An EU project proposal being submitted in April 2017 includes provision for a workshop on this topic which is relevant to:</p>\n<ul>\n<li>big data analytics;</li>\n<li>AI</li>\n<li>machine learning</li>\n<li>'<a href=\"https://github.com/w3c/strategy/issues/60\" data-hovercard-type=\"issue\" data-hovercard-url=\"/w3c/strategy/issues/60/hovercard\">Cognitive Web</a>'</li>\n<li>search</li>\n</ul>",
     "quadrant": 0,
     "ring": 5,
     "label": "Temporal and probabilistic annotations for RDF",
@@ -3046,6 +3166,7 @@
   },
   {
     "number": 42,
+    "body": "<p>There is a <a href=\"https://www.w3.org/community/scholarlyhtml/\" rel=\"nofollow\">Community Group</a>:</p>\n<blockquote>\n<p>The mission of this group is to build a common, open format for the exchange of scholarly information.</p>\n</blockquote>\n<p>This work may become important insofar as scholarly publishing might be one of the areas for some specific HTML or Web Publication profiles in the future.</p>",
     "quadrant": 0,
     "ring": 5,
     "label": "Scholarly HTML",
@@ -3068,6 +3189,7 @@
   },
   {
     "number": 53,
+    "body": "<p>Raised at 2016-11-29 meeting.</p>",
     "quadrant": 0,
     "ring": 5,
     "label": "Digital Ink",

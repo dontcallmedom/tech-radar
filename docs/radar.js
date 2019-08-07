@@ -383,6 +383,7 @@ function radar_visualization(config) {
       d3.select("#bubble path")
         .attr("transform", translate(bbox.width / 2 - 5, 3));
     }
+    showDescription.call(this,d);
     highlightLegendItem(d);
   }
 
@@ -391,7 +392,34 @@ function radar_visualization(config) {
     var bubble = d3.select("#bubble")
       .attr("transform", translate(0,0))
         .style("opacity", 0);
+    hideDescription.call(this, d);
     unhighlightLegendItem(d);
+  }
+
+  function showDescription(d) {
+    const desc = document.getElementById("desc");
+    d3.select(this).attr("aria-describedby", "desc");
+    desc.className = "show";
+    desc.querySelector("a").href = d.link;
+    desc.querySelector("a").textContent = d.label;
+    desc.querySelector(".desc").innerHTML = d.body;
+    desc.querySelector(".status").textContent = "In " + config.rings[d.ring].name + (d.lastMovedAt ? " since " + d.lastMovedAt.slice(0,10) : "");
+    desc.querySelector(".comments").textContent = "Received " + d.comments.length + " comments" + (d.comments.length ? ", last one on " + d.comments[d.comments.length - 1].slice(0, 10) : "");
+    desc.querySelector(".labels").innerHTML = "";
+    desc.querySelector(".labels").appendChild(document.createTextNode("Labels: "));
+    d.labels.forEach(l => {
+      const span = document.createElement("span");
+      span.style.backgroundColor = "#" + l.color;
+      span.style.color = contrastedTextColor("#" + l.color);
+      span.textContent = l.name;
+      desc.querySelector(".labels").appendChild(span);
+      desc.querySelector(".labels").appendChild(document.createTextNode(" "));
+    });
+  }
+
+  function hideDescription(d) {
+    d3.select(this).attr("aria-describedby", null);
+    desc.className = "hide";
   }
 
   function highlightLegendItem(d) {
@@ -499,7 +527,7 @@ function radar_visualization(config) {
     inp.checked = true;
     inp.value = d;
     lab.appendChild(inp);
-    lab.appendChild(document.createTextNode(d));
+    lab.appendChild(document.createTextNode(d + " (" + (config.entries.filter(e => e.labels.find(l => l.name === d)).length)+ ")"));
     control.appendChild(lab);
     const bgColor = '#' + config.entries.find(e => (e.labels || []).find(l => l.name === d)).labels.find(l => l.name === d).color;
     lab.style.backgroundColor =  bgColor;
