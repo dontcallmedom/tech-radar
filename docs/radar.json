@@ -1,0 +1,3093 @@
+[
+  {
+    "number": 103,
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Privacy IG",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/103",
+    "moved": 0,
+    "updatedAt": "2019-07-09T13:16:40Z",
+    "lastMovedAt": "2018-10-26T15:03:21Z",
+    "lastActiveAt": "2019-07-09T13:16:40Z",
+    "assignees": [
+      "Samuel Weiler"
+    ],
+    "comments": [
+      "2018-10-26T15:03:09Z",
+      "2019-05-29T17:49:36Z",
+      "2019-06-05T16:49:20Z",
+      "2019-06-06T10:52:54Z",
+      "2019-06-18T14:14:21Z",
+      "2019-06-18T14:18:10Z",
+      "2019-06-19T13:30:42Z",
+      "2019-06-24T14:52:41Z"
+    ],
+    "labels": [
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      }
+    ]
+  },
+  {
+    "number": 177,
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Timed Text WG (TTML, WebVTT)",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/177",
+    "moved": 1,
+    "updatedAt": "2019-07-31T05:33:33Z",
+    "lastMovedAt": "2019-05-20T18:11:07Z",
+    "lastActiveAt": "2019-07-31T05:33:33Z",
+    "assignees": [
+      "Philippe Le Hegaret"
+    ],
+    "comments": [
+      "2019-05-29T23:18:27Z",
+      "2019-06-03T09:02:33Z",
+      "2019-06-06T10:04:15Z",
+      "2019-06-06T16:02:45Z",
+      "2019-07-02T17:52:10Z",
+      "2019-07-03T10:48:16Z",
+      "2019-07-31T05:33:33Z"
+    ],
+    "labels": [
+      {
+        "color": "89052f",
+        "name": "Accessibility review completed"
+      },
+      {
+        "color": "9ae504",
+        "name": "Horizontal review requested"
+      },
+      {
+        "color": "67c2db",
+        "name": "Internationalization review completed"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      },
+      {
+        "color": "79b503",
+        "name": "Privacy review completed"
+      },
+      {
+        "color": "97f794",
+        "name": "Security review completed"
+      },
+      {
+        "color": "c2e0c6",
+        "name": "Web for All"
+      }
+    ]
+  },
+  {
+    "number": 122,
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Coverage JSON",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/122",
+    "moved": 1,
+    "updatedAt": "2019-04-05T09:14:32Z",
+    "lastMovedAt": "2019-04-05T09:12:04Z",
+    "lastActiveAt": "2019-04-05T09:14:32Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2018-06-06T23:05:45Z",
+      "2018-06-07T08:52:33Z",
+      "2018-07-09T11:29:30Z",
+      "2018-07-16T15:12:50Z",
+      "2019-04-04T10:34:47Z",
+      "2019-04-04T10:36:54Z",
+      "2019-04-05T09:14:32Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "057553",
+        "name": "Geospatial"
+      }
+    ]
+  },
+  {
+    "number": 159,
+    "quadrant": 0,
+    "ring": 0,
+    "label": "Decentralized Identifiers (DID)",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/159",
+    "moved": 1,
+    "updatedAt": "2019-07-31T05:46:02Z",
+    "lastMovedAt": "2019-08-06T01:04:37Z",
+    "lastActiveAt": "2019-08-06T01:04:37Z",
+    "assignees": [],
+    "comments": [
+      "2018-12-20T19:17:17Z",
+      "2019-02-07T13:30:19Z",
+      "2019-04-08T20:23:02Z",
+      "2019-04-08T20:43:38Z",
+      "2019-06-06T10:46:34Z",
+      "2019-07-09T13:25:46Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "89052f",
+        "name": "Accessibility review completed"
+      },
+      {
+        "color": "ededed",
+        "name": "Decentralization"
+      },
+      {
+        "color": "9ae504",
+        "name": "Horizontal review requested"
+      },
+      {
+        "color": "67c2db",
+        "name": "Internationalization review completed"
+      },
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 38,
+    "quadrant": 0,
+    "ring": 0,
+    "label": "WebAuthn vNext",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/38",
+    "moved": 1,
+    "updatedAt": "2019-08-02T10:43:23Z",
+    "lastMovedAt": "2019-06-02T04:24:48Z",
+    "lastActiveAt": "2019-08-02T10:43:23Z",
+    "assignees": [
+      "Samuel Weiler"
+    ],
+    "comments": [
+      "2017-07-31T23:53:29Z",
+      "2017-10-11T14:58:05Z",
+      "2019-06-02T04:24:38Z",
+      "2019-07-09T17:57:22Z",
+      "2019-07-30T21:42:11Z",
+      "2019-08-02T10:43:23Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "9ae504",
+        "name": "Horizontal review requested"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 68,
+    "quadrant": 0,
+    "ring": 1,
+    "label": "GPU / next-gen graphics on the Web",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/68",
+    "moved": 0,
+    "updatedAt": "2019-01-23T15:45:59Z",
+    "lastMovedAt": "2019-01-23T00:31:18Z",
+    "lastActiveAt": "2019-01-23T15:45:59Z",
+    "assignees": [
+      "Michael[tm] Smith",
+      "Chris Lilley"
+    ],
+    "comments": [
+      "2017-02-08T17:57:27Z",
+      "2017-03-01T08:38:53Z",
+      "2017-09-12T12:58:32Z",
+      "2017-10-09T16:19:23Z",
+      "2018-06-08T12:58:44Z",
+      "2018-11-14T07:17:17Z",
+      "2019-01-23T00:30:18Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 181,
+    "quadrant": 0,
+    "ring": 1,
+    "label": "RDF Literals and Base Directions",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/181",
+    "moved": 1,
+    "updatedAt": "2019-07-02T10:25:29Z",
+    "lastMovedAt": "2019-07-02T10:22:12Z",
+    "lastActiveAt": "2019-07-02T10:25:29Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2019-06-05T16:08:26Z",
+      "2019-06-05T16:09:39Z",
+      "2019-06-05T16:15:54Z",
+      "2019-06-07T14:02:51Z",
+      "2019-07-02T10:25:29Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "fef2c0",
+        "name": "i18n"
+      }
+    ]
+  },
+  {
+    "number": 179,
+    "quadrant": 0,
+    "ring": 1,
+    "label": "W3C Workshop on Data Models for Transportation",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/179",
+    "moved": 1,
+    "updatedAt": "2019-07-09T13:19:56Z",
+    "lastMovedAt": "2019-05-31T12:40:39Z",
+    "lastActiveAt": "2019-07-09T13:19:56Z",
+    "assignees": [],
+    "comments": [
+      "2019-06-06T10:29:47Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 161,
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Web Audio recharter",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/161",
+    "moved": -1,
+    "updatedAt": "2019-05-14T13:13:12Z",
+    "lastMovedAt": "2019-04-08T15:31:49Z",
+    "lastActiveAt": "2019-05-14T13:13:12Z",
+    "assignees": [],
+    "comments": [
+      "2019-05-14T13:13:12Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 173,
+    "quadrant": 0,
+    "ring": 1,
+    "label": "Web Games Workshop",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/173",
+    "moved": 0,
+    "updatedAt": "2019-05-31T12:52:50Z",
+    "lastActiveAt": "2019-05-31T12:52:50Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      },
+      {
+        "color": "d9dd5d",
+        "name": "Performance"
+      }
+    ]
+  },
+  {
+    "number": 113,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Video geotagging format (WebVMT)",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/113",
+    "moved": 0,
+    "updatedAt": "2019-07-06T19:33:22Z",
+    "lastMovedAt": "2018-06-06T16:42:03Z",
+    "lastActiveAt": "2019-07-06T19:33:22Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2018-03-07T10:36:59Z",
+      "2018-03-14T21:50:24Z",
+      "2018-05-11T18:23:27Z",
+      "2018-06-06T16:41:31Z",
+      "2018-06-07T18:11:16Z",
+      "2018-07-03T15:02:40Z",
+      "2018-07-09T11:19:05Z",
+      "2018-07-09T14:52:34Z",
+      "2018-07-20T19:41:33Z",
+      "2018-08-07T14:05:13Z",
+      "2018-09-06T14:18:57Z",
+      "2018-10-02T12:07:13Z",
+      "2018-10-25T08:59:30Z",
+      "2018-11-13T20:22:10Z",
+      "2018-12-13T14:33:09Z",
+      "2018-12-14T14:53:07Z",
+      "2019-01-15T15:09:17Z",
+      "2019-02-07T14:00:36Z",
+      "2019-03-06T18:54:00Z",
+      "2019-04-01T17:53:47Z",
+      "2019-05-08T17:07:37Z",
+      "2019-06-07T11:31:56Z",
+      "2019-07-06T19:33:21Z"
+    ],
+    "labels": [
+      {
+        "color": "057553",
+        "name": "Geospatial"
+      }
+    ]
+  },
+  {
+    "number": 18,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "High Dynamic Range (HDR)",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/18",
+    "moved": 0,
+    "updatedAt": "2019-05-14T13:02:16Z",
+    "lastActiveAt": "2019-05-14T13:02:16Z",
+    "assignees": [
+      "Chris Lilley"
+    ],
+    "comments": [
+      "2017-01-13T09:29:00Z",
+      "2017-01-13T10:02:20Z",
+      "2017-01-14T05:26:54Z",
+      "2017-01-27T18:22:59Z",
+      "2017-01-27T18:23:15Z",
+      "2017-07-11T12:37:31Z",
+      "2018-03-16T20:51:15Z",
+      "2018-03-17T00:15:56Z",
+      "2018-06-12T13:31:45Z",
+      "2018-10-01T15:26:56Z",
+      "2019-05-14T13:02:16Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 115,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "MapML",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/115",
+    "moved": 0,
+    "updatedAt": "2018-07-10T13:24:35Z",
+    "lastMovedAt": "2018-03-06T10:53:36Z",
+    "lastActiveAt": "2018-07-10T13:24:35Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2018-03-16T16:22:57Z",
+      "2018-03-16T18:18:47Z",
+      "2018-04-24T11:04:18Z",
+      "2018-04-24T13:10:45Z",
+      "2018-07-09T12:14:20Z",
+      "2018-07-09T13:20:41Z",
+      "2018-07-09T13:57:22Z",
+      "2018-07-10T07:04:59Z",
+      "2018-07-10T13:24:35Z"
+    ],
+    "labels": [
+      {
+        "color": "057553",
+        "name": "Geospatial"
+      }
+    ]
+  },
+  {
+    "number": 92,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Lifecycle API",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/92",
+    "moved": 0,
+    "updatedAt": "2017-12-15T17:08:07Z",
+    "lastActiveAt": "2017-12-15T17:08:07Z",
+    "assignees": [],
+    "comments": [
+      "2017-06-26T22:12:46Z",
+      "2017-06-27T15:22:04Z",
+      "2017-07-03T16:32:04Z",
+      "2017-07-05T14:45:38Z",
+      "2017-07-30T17:48:20Z",
+      "2017-08-03T13:41:57Z",
+      "2017-12-15T17:04:06Z",
+      "2017-12-15T17:08:07Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 21,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web Bluetooth",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/21",
+    "moved": 0,
+    "updatedAt": "2018-06-12T22:17:00Z",
+    "lastMovedAt": "2017-08-21T14:44:28Z",
+    "lastActiveAt": "2018-06-12T22:17:00Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [
+      "2016-10-26T08:49:08Z",
+      "2017-01-13T09:11:19Z",
+      "2017-02-06T16:32:57Z",
+      "2017-06-19T15:23:33Z",
+      "2018-04-06T00:44:09Z",
+      "2018-06-12T22:17:00Z"
+    ],
+    "labels": [
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 150,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Machine Learning on the Web",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/150",
+    "moved": 0,
+    "updatedAt": "2019-08-01T16:04:30Z",
+    "lastActiveAt": "2019-08-01T16:04:30Z",
+    "assignees": [
+      "Dominique Hazael-Massieux"
+    ],
+    "comments": [
+      "2019-05-20T12:57:21Z",
+      "2019-05-29T23:36:57Z",
+      "2019-06-05T16:52:40Z",
+      "2019-06-06T09:59:44Z"
+    ],
+    "labels": [
+      {
+        "color": "a7c7f2",
+        "name": "AI"
+      },
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "9ae504",
+        "name": "Horizontal review requested"
+      },
+      {
+        "color": "67c2db",
+        "name": "Internationalization review completed"
+      }
+    ]
+  },
+  {
+    "number": 67,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web-based Signage",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/67",
+    "moved": 0,
+    "updatedAt": "2017-10-12T13:31:00Z",
+    "lastMovedAt": "2018-07-09T19:55:28Z",
+    "lastActiveAt": "2018-07-09T19:55:28Z",
+    "assignees": [
+      "Wendy Seltzer"
+    ],
+    "comments": [
+      "2017-04-24T04:03:39Z",
+      "2017-04-24T05:40:56Z",
+      "2017-06-22T08:46:06Z",
+      "2017-10-10T13:35:55Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 94,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Linked Building Data",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/94",
+    "moved": 0,
+    "updatedAt": "2019-02-19T14:40:28Z",
+    "lastActiveAt": "2019-02-19T14:40:28Z",
+    "assignees": [
+      "François Daoust",
+      "Dave Raggett"
+    ],
+    "comments": [
+      "2018-06-05T22:57:10Z",
+      "2018-06-06T00:49:25Z",
+      "2018-07-09T15:42:14Z",
+      "2019-02-04T21:03:58Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "057553",
+        "name": "Geospatial"
+      }
+    ]
+  },
+  {
+    "number": 47,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web Media Profile (aka Web Media APIs)",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/47",
+    "moved": 1,
+    "updatedAt": "2019-06-07T12:12:12Z",
+    "lastMovedAt": "2019-06-04T13:32:02Z",
+    "lastActiveAt": "2019-06-07T12:12:12Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2017-01-11T15:25:55Z",
+      "2017-01-24T19:11:44Z",
+      "2019-06-04T13:34:12Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 171,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Signed HTTP Exchanges",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/171",
+    "moved": 1,
+    "updatedAt": "2019-07-23T21:52:07Z",
+    "lastMovedAt": "2019-05-25T00:36:14Z",
+    "lastActiveAt": "2019-07-23T21:52:07Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [
+      "2019-04-17T15:44:37Z",
+      "2019-05-25T00:28:00Z",
+      "2019-07-23T21:52:07Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 52,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web NFC",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/52",
+    "moved": 0,
+    "updatedAt": "2018-06-12T22:17:12Z",
+    "lastMovedAt": "2017-09-13T09:42:02Z",
+    "lastActiveAt": "2018-06-12T22:17:12Z",
+    "assignees": [],
+    "comments": [
+      "2017-01-17T08:43:49Z",
+      "2017-06-19T15:24:03Z",
+      "2018-06-12T22:17:12Z"
+    ],
+    "labels": [
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 184,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "How to Incubate (explainer)",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/184",
+    "moved": 0,
+    "updatedAt": "2019-07-29T18:02:19Z",
+    "lastActiveAt": "2019-07-29T18:02:19Z",
+    "assignees": [],
+    "comments": [
+      "2019-06-18T08:34:00Z",
+      "2019-06-18T17:40:03Z",
+      "2019-07-29T18:02:19Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 149,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Audio Description",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/149",
+    "moved": 0,
+    "updatedAt": "2019-02-04T18:53:28Z",
+    "lastMovedAt": "2019-02-04T18:53:40Z",
+    "lastActiveAt": "2019-02-04T18:53:40Z",
+    "assignees": [],
+    "comments": [
+      "2019-02-04T10:09:01Z",
+      "2019-02-04T18:53:28Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 95,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Linked Data Templates",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/95",
+    "moved": 0,
+    "updatedAt": "2018-06-06T18:26:43Z",
+    "lastActiveAt": "2018-06-06T18:26:43Z",
+    "assignees": [],
+    "comments": [
+      "2017-09-13T14:57:53Z",
+      "2018-06-06T18:26:43Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 156,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Constructable Stylesheet Objects",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/156",
+    "moved": 0,
+    "updatedAt": "2019-05-14T13:07:38Z",
+    "lastMovedAt": "2018-11-14T08:16:59Z",
+    "lastActiveAt": "2019-05-14T13:07:38Z",
+    "assignees": [],
+    "comments": [
+      "2019-01-08T14:25:33Z",
+      "2019-05-14T13:07:38Z"
+    ],
+    "labels": [
+      {
+        "color": "db756f",
+        "name": "CSS"
+      },
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 178,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Privacy Preserving Ad Click Attribution",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/178",
+    "moved": 1,
+    "updatedAt": "2019-05-31T12:39:58Z",
+    "lastMovedAt": "2019-05-24T02:01:22Z",
+    "lastActiveAt": "2019-05-31T12:39:58Z",
+    "assignees": [
+      "Wendy Seltzer"
+    ],
+    "comments": [
+      "2019-05-31T12:39:58Z"
+    ],
+    "labels": [
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      }
+    ]
+  },
+  {
+    "number": 118,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Personalization?",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/118",
+    "moved": 0,
+    "updatedAt": "2018-08-14T13:15:32Z",
+    "lastMovedAt": "2018-08-14T13:14:08Z",
+    "lastActiveAt": "2018-08-14T13:15:32Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2018-04-26T04:20:47Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 135,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Spatial Navigation",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/135",
+    "moved": 0,
+    "updatedAt": "2018-08-14T13:15:32Z",
+    "lastMovedAt": "2018-08-14T13:14:47Z",
+    "lastActiveAt": "2018-08-14T13:15:32Z",
+    "assignees": [],
+    "comments": [
+      "2018-07-25T13:08:30Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 145,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web Share API",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/145",
+    "moved": 0,
+    "updatedAt": "2019-01-30T07:07:31Z",
+    "lastMovedAt": "2018-09-28T01:57:51Z",
+    "lastActiveAt": "2019-01-30T07:07:31Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [
+      "2018-09-28T07:39:37Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 162,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Loading Signed Exchanges",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/162",
+    "moved": 0,
+    "updatedAt": "2018-12-20T01:03:11Z",
+    "lastMovedAt": "2018-12-20T01:03:30Z",
+    "lastActiveAt": "2018-12-20T01:03:30Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 49,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Open Screen protocol",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/49",
+    "moved": 0,
+    "updatedAt": "2016-11-29T11:23:05Z",
+    "lastActiveAt": "2016-11-29T11:23:05Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 124,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "WebUSB",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/124",
+    "moved": 0,
+    "updatedAt": "2018-06-12T18:51:22Z",
+    "lastMovedAt": "2018-06-12T18:51:51Z",
+    "lastActiveAt": "2018-06-12T18:51:51Z",
+    "assignees": [],
+    "comments": [],
+    "labels": []
+  },
+  {
+    "number": 189,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web-transport API",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/189",
+    "moved": 0,
+    "updatedAt": "2019-07-23T21:50:28Z",
+    "lastActiveAt": "2019-07-23T21:50:28Z",
+    "assignees": [],
+    "comments": [],
+    "labels": []
+  },
+  {
+    "number": 128,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "AOM",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/128",
+    "moved": 0,
+    "updatedAt": "2018-06-20T21:18:56Z",
+    "lastActiveAt": "2018-06-20T21:18:56Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      }
+    ]
+  },
+  {
+    "number": 170,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Transition of Linked Building Data on the Web from Community Group to Working Group",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/170",
+    "moved": 0,
+    "updatedAt": "2019-06-07T12:30:54Z",
+    "lastMovedAt": "2019-02-06T13:57:06Z",
+    "lastActiveAt": "2019-06-07T12:30:54Z",
+    "assignees": [
+      "Dave Raggett",
+      null
+    ],
+    "comments": [],
+    "labels": []
+  },
+  {
+    "number": 121,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Semantic Sensor and Network Ontology (SSN) v2",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/121",
+    "moved": 0,
+    "updatedAt": "2018-06-06T17:00:43Z",
+    "lastMovedAt": "2018-06-06T17:01:35Z",
+    "lastActiveAt": "2018-06-06T17:01:35Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "057553",
+        "name": "Geospatial"
+      }
+    ]
+  },
+  {
+    "number": 158,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web Share Target",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/158",
+    "moved": 0,
+    "updatedAt": "2019-01-30T07:03:24Z",
+    "lastMovedAt": "2018-11-15T04:27:00Z",
+    "lastActiveAt": "2019-01-30T07:03:24Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 169,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "HTML Modules",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/169",
+    "moved": 0,
+    "updatedAt": "2019-02-01T05:59:17Z",
+    "lastMovedAt": "2019-02-01T05:59:42Z",
+    "lastActiveAt": "2019-02-01T05:59:42Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 138,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Web Locks",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/138",
+    "moved": 0,
+    "updatedAt": "2019-01-30T07:06:31Z",
+    "lastMovedAt": "2018-09-28T01:58:19Z",
+    "lastActiveAt": "2019-01-30T07:06:31Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 51,
+    "quadrant": 0,
+    "ring": 2,
+    "label": "Interledger Protocol",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/51",
+    "moved": 0,
+    "updatedAt": "2016-11-29T14:43:58Z",
+    "lastMovedAt": "2017-05-10T16:19:54Z",
+    "lastActiveAt": "2017-05-10T16:19:54Z",
+    "assignees": [
+      null
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      }
+    ]
+  },
+  {
+    "number": 43,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Getting Math Onto Web Pages",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/43",
+    "moved": 0,
+    "updatedAt": "2018-05-09T22:54:48Z",
+    "lastActiveAt": "2018-05-09T22:54:48Z",
+    "assignees": [
+      "Ivan Herman",
+      null
+    ],
+    "comments": [
+      "2016-11-15T16:50:32Z",
+      "2018-01-24T18:21:38Z",
+      "2018-01-24T18:22:30Z",
+      "2018-01-24T20:38:22Z",
+      "2018-01-25T06:46:09Z",
+      "2018-04-11T19:50:54Z",
+      "2018-04-12T02:55:57Z",
+      "2018-04-12T12:38:11Z",
+      "2018-04-12T18:47:56Z",
+      "2018-04-12T19:05:57Z",
+      "2018-04-12T19:43:00Z",
+      "2018-05-09T04:34:11Z",
+      "2018-05-09T07:14:12Z",
+      "2018-05-09T19:07:30Z",
+      "2018-05-09T19:16:56Z",
+      "2018-05-09T22:54:47Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 81,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Advertising and data analytics",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/81",
+    "moved": 1,
+    "updatedAt": "2019-07-29T20:40:45Z",
+    "lastMovedAt": "2019-07-29T20:40:10Z",
+    "lastActiveAt": "2019-07-29T20:40:45Z",
+    "assignees": [
+      "Wendy Seltzer",
+      null
+    ],
+    "comments": [
+      "2017-06-20T19:37:45Z",
+      "2017-07-29T01:52:43Z",
+      "2017-09-26T13:23:39Z",
+      "2017-12-21T12:00:35Z",
+      "2018-02-23T19:40:16Z",
+      "2018-02-24T01:27:05Z",
+      "2018-02-24T12:40:48Z",
+      "2018-02-25T02:51:15Z",
+      "2018-04-21T11:20:19Z",
+      "2018-04-21T11:28:40Z",
+      "2018-06-13T15:20:38Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "5319e7",
+        "name": "E-Commerce"
+      },
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 116,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Canonical RDF, Linked Data Signatures",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/116",
+    "moved": 0,
+    "updatedAt": "2019-01-19T14:41:59Z",
+    "lastMovedAt": "2018-10-30T12:20:44Z",
+    "lastActiveAt": "2019-01-19T14:41:59Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2018-03-16T09:49:40Z",
+      "2018-03-24T05:58:04Z",
+      "2018-04-24T09:58:41Z",
+      "2018-04-24T10:00:28Z",
+      "2018-04-24T15:40:53Z",
+      "2018-04-25T04:56:36Z",
+      "2018-06-08T15:09:02Z",
+      "2018-11-05T15:40:28Z",
+      "2019-01-19T14:41:59Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 8,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Blockchain",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/8",
+    "moved": 0,
+    "updatedAt": "2018-06-20T20:57:50Z",
+    "lastActiveAt": "2018-06-20T20:57:50Z",
+    "assignees": [
+      "Ivan Herman",
+      null
+    ],
+    "comments": [
+      "2016-10-13T04:06:23Z",
+      "2016-10-18T23:01:55Z",
+      "2016-10-25T23:24:23Z",
+      "2016-12-01T19:03:55Z",
+      "2017-04-04T11:53:22Z",
+      "2017-06-21T17:00:20Z",
+      "2017-06-22T09:37:59Z",
+      "2017-06-22T13:27:40Z"
+    ],
+    "labels": [
+      {
+        "color": "ededed",
+        "name": "Decentralization"
+      }
+    ]
+  },
+  {
+    "number": 96,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Packaging",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/96",
+    "moved": 0,
+    "updatedAt": "2019-05-14T13:14:49Z",
+    "lastMovedAt": "2017-07-31T23:59:52Z",
+    "lastActiveAt": "2019-05-14T13:14:49Z",
+    "assignees": [
+      "Samuel Weiler"
+    ],
+    "comments": [
+      "2017-11-15T22:40:51Z",
+      "2018-01-09T17:08:55Z",
+      "2018-04-06T00:47:23Z",
+      "2018-06-15T12:22:32Z",
+      "2018-07-16T02:57:14Z",
+      "2019-02-01T02:01:40Z",
+      "2019-02-26T13:55:05Z",
+      "2019-05-14T13:14:49Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 175,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Inclusive XR workshop",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/175",
+    "moved": 0,
+    "updatedAt": "2019-07-17T16:30:14Z",
+    "lastActiveAt": "2019-07-17T16:30:14Z",
+    "assignees": [
+      "Dominique Hazael-Massieux"
+    ],
+    "comments": [
+      "2019-06-14T07:57:51Z",
+      "2019-06-14T10:11:24Z",
+      "2019-06-18T15:09:08Z",
+      "2019-07-02T12:47:47Z",
+      "2019-07-09T18:15:18Z",
+      "2019-07-10T16:48:03Z",
+      "2019-07-17T16:30:14Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "9ae504",
+        "name": "Horizontal review requested"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      },
+      {
+        "color": "79b503",
+        "name": "Privacy review completed"
+      },
+      {
+        "color": "97f794",
+        "name": "Security review completed"
+      }
+    ]
+  },
+  {
+    "number": 112,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Two decades of Linked Data",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/112",
+    "moved": 0,
+    "updatedAt": "2018-02-25T17:33:49Z",
+    "lastActiveAt": "2018-02-25T17:33:49Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [
+      "2018-02-25T09:41:28Z",
+      "2018-02-25T09:45:23Z",
+      "2018-02-25T17:33:49Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 32,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Vocabulary management project",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/32",
+    "moved": 0,
+    "updatedAt": "2017-07-13T19:38:12Z",
+    "lastMovedAt": 0,
+    "lastActiveAt": "2017-07-13T19:38:12Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [
+      "2016-10-31T16:55:37Z",
+      "2016-11-03T15:57:54Z",
+      "2017-04-07T13:37:48Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 9,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Digital Offers",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/9",
+    "moved": 0,
+    "updatedAt": "2018-09-03T09:25:21Z",
+    "lastActiveAt": "2018-09-03T09:25:21Z",
+    "assignees": [
+      null
+    ],
+    "comments": [
+      "2016-11-29T14:31:19Z",
+      "2018-09-03T09:25:20Z"
+    ],
+    "labels": [
+      {
+        "color": "5319e7",
+        "name": "E-Commerce"
+      },
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      }
+    ]
+  },
+  {
+    "number": 133,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Synchronize audio/video with data in WebRTC",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/133",
+    "moved": 0,
+    "updatedAt": "2018-08-14T13:23:19Z",
+    "lastMovedAt": "2018-08-14T13:22:29Z",
+    "lastActiveAt": "2018-08-14T13:23:19Z",
+    "assignees": [],
+    "comments": [
+      "2018-08-14T13:23:19Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 48,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Sourcing in-band media resource tracks",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/48",
+    "moved": 0,
+    "updatedAt": "2019-06-04T13:31:12Z",
+    "lastActiveAt": "2019-06-04T13:31:12Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2019-06-04T13:31:12Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 130,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Media encoder/decoder API",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/130",
+    "moved": 1,
+    "updatedAt": "2019-06-04T13:21:54Z",
+    "lastMovedAt": "2019-06-04T13:22:20Z",
+    "lastActiveAt": "2019-06-04T13:22:20Z",
+    "assignees": [],
+    "comments": [
+      "2019-06-04T13:21:53Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 131,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "WebRTC in workers",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/131",
+    "moved": 0,
+    "updatedAt": "2018-08-14T13:22:18Z",
+    "lastMovedAt": "2018-08-14T13:20:25Z",
+    "lastActiveAt": "2018-08-14T13:22:18Z",
+    "assignees": [],
+    "comments": [
+      "2018-08-14T13:22:18Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 154,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "SPIR-V for WebGPU (binary shader language)",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/154",
+    "moved": 0,
+    "updatedAt": "2018-11-14T22:56:28Z",
+    "lastMovedAt": "2018-11-14T07:14:36Z",
+    "lastActiveAt": "2018-11-14T22:56:28Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 89,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Shape Detection in images",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/89",
+    "moved": 0,
+    "updatedAt": "2017-06-06T15:49:59Z",
+    "lastActiveAt": "2017-06-06T15:49:59Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 151,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Web Monetization",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/151",
+    "moved": 0,
+    "updatedAt": "2018-10-26T20:28:52Z",
+    "lastMovedAt": "2018-10-26T20:30:17Z",
+    "lastActiveAt": "2018-10-26T20:30:17Z",
+    "assignees": [
+      null
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      }
+    ]
+  },
+  {
+    "number": 143,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Portals spec",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/143",
+    "moved": 0,
+    "updatedAt": "2019-01-30T06:56:45Z",
+    "lastMovedAt": "2018-09-26T01:02:53Z",
+    "lastActiveAt": "2019-01-30T06:56:45Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 139,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "API to enable Web apps to self-profile their own JavaScript performance",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/139",
+    "moved": 0,
+    "updatedAt": "2018-09-14T08:44:41Z",
+    "lastMovedAt": "2018-09-11T10:21:45Z",
+    "lastActiveAt": "2018-09-14T08:44:41Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "d9dd5d",
+        "name": "Performance"
+      }
+    ]
+  },
+  {
+    "number": 155,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "DevTools Protocol",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/155",
+    "moved": 0,
+    "updatedAt": "2018-11-14T07:40:04Z",
+    "lastMovedAt": "2018-11-14T07:40:26Z",
+    "lastActiveAt": "2018-11-14T07:40:26Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 163,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Easier RDF",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/163",
+    "moved": 0,
+    "updatedAt": "2019-02-07T22:04:14Z",
+    "lastActiveAt": "2019-02-07T22:04:14Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 152,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "WebGPU API Proposal (Apple)",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/152",
+    "moved": 0,
+    "updatedAt": "2019-01-30T06:55:06Z",
+    "lastMovedAt": "2018-11-14T06:45:04Z",
+    "lastActiveAt": "2019-01-30T06:55:06Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 46,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "Timing on the web",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/46",
+    "moved": 0,
+    "updatedAt": "2016-11-29T11:23:35Z",
+    "lastActiveAt": "2016-11-29T11:23:35Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 142,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "File and Directory Entries API",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/142",
+    "moved": 0,
+    "updatedAt": "2019-01-30T07:10:08Z",
+    "lastMovedAt": "2018-09-13T08:24:51Z",
+    "lastActiveAt": "2019-01-30T07:10:08Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 153,
+    "quadrant": 0,
+    "ring": 3,
+    "label": "WHLSL (Web High-level Shading Language) for WebGPU",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/153",
+    "moved": 0,
+    "updatedAt": "2018-11-14T07:14:14Z",
+    "lastMovedAt": "2018-11-14T06:58:54Z",
+    "lastActiveAt": "2018-11-14T07:14:14Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 44,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "AMP",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/44",
+    "moved": 0,
+    "updatedAt": "2018-10-21T10:52:30Z",
+    "lastActiveAt": "2018-10-21T10:52:30Z",
+    "assignees": [
+      "Wendy Seltzer"
+    ],
+    "comments": [
+      "2017-02-06T16:43:01Z",
+      "2017-04-01T13:40:10Z",
+      "2017-04-24T04:05:31Z",
+      "2017-04-24T04:29:09Z",
+      "2017-05-18T20:26:54Z",
+      "2017-06-21T08:24:15Z",
+      "2017-06-26T19:54:34Z",
+      "2017-07-27T13:32:19Z",
+      "2017-09-04T09:12:25Z",
+      "2017-09-04T10:02:54Z",
+      "2017-09-26T13:27:24Z",
+      "2018-01-09T17:08:24Z",
+      "2018-01-09T17:11:40Z",
+      "2018-02-19T13:36:35Z",
+      "2018-03-09T09:50:49Z",
+      "2018-03-12T19:52:06Z",
+      "2018-03-15T14:15:08Z",
+      "2018-04-04T16:20:57Z",
+      "2018-09-14T02:01:53Z",
+      "2018-09-28T14:12:10Z",
+      "2018-09-28T14:27:34Z",
+      "2018-10-10T14:07:46Z",
+      "2018-10-10T16:58:08Z",
+      "2018-10-21T10:52:29Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 71,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Voice interaction",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/71",
+    "moved": 0,
+    "updatedAt": "2019-08-02T14:15:44Z",
+    "lastMovedAt": "2017-03-31T12:15:23Z",
+    "lastActiveAt": "2019-08-02T14:15:44Z",
+    "assignees": [],
+    "comments": [
+      "2017-03-31T17:21:04Z",
+      "2017-08-31T10:39:34Z",
+      "2017-09-04T11:40:06Z",
+      "2018-05-22T19:03:31Z",
+      "2018-05-23T17:43:22Z",
+      "2018-07-20T09:26:16Z",
+      "2018-07-27T09:53:14Z",
+      "2018-10-31T09:09:56Z",
+      "2018-11-07T09:32:05Z",
+      "2019-08-02T13:53:42Z",
+      "2019-08-02T14:15:44Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 28,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Artificial Intellgience [AI] (assistants, machine learning, big data)",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/28",
+    "moved": 0,
+    "updatedAt": "2018-06-07T13:03:46Z",
+    "lastActiveAt": "2018-06-07T13:03:46Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [
+      "2016-11-03T15:12:58Z",
+      "2016-11-03T19:26:01Z",
+      "2016-11-04T10:45:16Z",
+      "2017-06-13T07:30:00Z",
+      "2017-11-10T17:02:23Z",
+      "2017-11-16T10:46:23Z",
+      "2018-01-25T13:34:19Z",
+      "2018-03-08T19:23:11Z",
+      "2018-03-30T07:08:07Z",
+      "2018-06-07T13:03:46Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "ededed",
+        "name": "Decentralization"
+      },
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 54,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Fake News",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/54",
+    "moved": 0,
+    "updatedAt": "2018-10-22T21:20:39Z",
+    "lastActiveAt": "2018-10-22T21:20:39Z",
+    "assignees": [
+      "Sandro Hawke",
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2016-11-30T22:35:29Z",
+      "2017-02-02T01:01:39Z",
+      "2017-03-30T18:59:33Z",
+      "2017-04-07T13:34:37Z",
+      "2017-04-08T13:08:59Z",
+      "2017-08-22T14:47:58Z",
+      "2017-11-29T14:26:44Z",
+      "2018-02-01T11:10:24Z",
+      "2018-10-22T21:20:39Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 58,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "APNG",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/58",
+    "moved": 0,
+    "updatedAt": "2018-09-25T21:26:54Z",
+    "lastActiveAt": "2018-09-25T21:26:54Z",
+    "assignees": [
+      "Chris Lilley"
+    ],
+    "comments": [
+      "2017-01-06T13:13:15Z",
+      "2017-03-07T14:09:48Z",
+      "2017-06-13T13:36:12Z",
+      "2017-07-04T23:13:05Z",
+      "2018-09-25T21:09:04Z",
+      "2018-09-25T21:20:40Z",
+      "2018-09-25T21:26:54Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 108,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "JSON schema",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/108",
+    "moved": 0,
+    "updatedAt": "2019-03-21T16:07:50Z",
+    "lastMovedAt": "2018-02-20T09:18:36Z",
+    "lastActiveAt": "2019-03-21T16:07:50Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2018-02-22T11:06:52Z",
+      "2018-02-22T11:17:36Z",
+      "2018-03-08T21:52:51Z",
+      "2018-03-10T01:49:26Z",
+      "2018-04-12T12:59:23Z",
+      "2019-03-21T16:07:50Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 65,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Navigation Transitions",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/65",
+    "moved": 0,
+    "updatedAt": "2017-01-24T00:42:12Z",
+    "lastActiveAt": "2017-01-24T00:42:12Z",
+    "assignees": [],
+    "comments": [
+      "2017-01-18T12:13:02Z",
+      "2017-01-18T12:16:11Z",
+      "2017-01-24T00:42:12Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 39,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Accessible Wayfinding",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/39",
+    "moved": 0,
+    "updatedAt": "2018-02-24T13:35:08Z",
+    "lastActiveAt": "2018-02-24T13:35:08Z",
+    "assignees": [],
+    "comments": [
+      "2016-11-14T12:18:02Z",
+      "2016-11-29T11:25:10Z",
+      "2018-02-24T13:34:48Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 26,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "RTC vNext",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/26",
+    "moved": 0,
+    "updatedAt": "2018-06-26T12:14:35Z",
+    "lastActiveAt": "2018-06-26T12:14:35Z",
+    "assignees": [
+      null
+    ],
+    "comments": [
+      "2016-11-30T07:27:39Z",
+      "2016-12-01T18:56:04Z",
+      "2018-06-26T12:14:35Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 147,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "W3C Workshop on archival",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/147",
+    "moved": 0,
+    "updatedAt": "2019-02-26T14:07:01Z",
+    "lastMovedAt": "2018-10-10T02:54:30Z",
+    "lastActiveAt": "2019-02-26T14:07:01Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2018-10-10T02:52:51Z",
+      "2018-12-14T16:34:16Z",
+      "2019-02-26T14:07:01Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 183,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Mini Programs & Quick Apps",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/183",
+    "moved": 1,
+    "updatedAt": "2019-07-24T13:35:40Z",
+    "lastMovedAt": "2019-06-14T03:39:13Z",
+    "lastActiveAt": "2019-07-24T13:35:40Z",
+    "assignees": [
+      "Chris Lilley"
+    ],
+    "comments": [
+      "2019-06-14T03:37:29Z",
+      "2019-06-17T12:34:31Z",
+      "2019-07-24T13:35:40Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 104,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "What is a PWA?",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/104",
+    "moved": 0,
+    "updatedAt": "2018-02-08T16:05:25Z",
+    "lastMovedAt": "2017-11-17T14:18:03Z",
+    "lastActiveAt": "2018-02-08T16:05:25Z",
+    "assignees": [
+      null
+    ],
+    "comments": [
+      "2017-11-17T14:50:50Z",
+      "2018-02-08T15:45:49Z",
+      "2018-02-08T16:05:25Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 102,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "RDF JS",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/102",
+    "moved": 0,
+    "updatedAt": "2018-06-12T13:15:45Z",
+    "lastMovedAt": "2017-10-11T15:33:00Z",
+    "lastActiveAt": "2018-06-12T13:15:45Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2017-10-11T15:32:06Z",
+      "2018-06-12T13:15:45Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 172,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Telemetry workshop",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/172",
+    "moved": 1,
+    "updatedAt": "2019-04-02T17:04:51Z",
+    "lastMovedAt": "2019-04-02T13:49:55Z",
+    "lastActiveAt": "2019-04-02T17:04:51Z",
+    "assignees": [],
+    "comments": [
+      "2019-04-02T13:51:31Z",
+      "2019-04-02T17:04:50Z"
+    ],
+    "labels": [
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      }
+    ]
+  },
+  {
+    "number": 27,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Mobile",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/27",
+    "moved": 0,
+    "updatedAt": "2016-11-29T14:29:43Z",
+    "lastActiveAt": "2016-11-29T14:29:43Z",
+    "assignees": [],
+    "comments": [
+      "2016-11-29T14:28:44Z",
+      "2016-11-29T14:29:43Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 60,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Sentient Web",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/60",
+    "moved": 0,
+    "updatedAt": "2019-01-11T16:48:05Z",
+    "lastActiveAt": "2019-01-11T16:48:05Z",
+    "assignees": [],
+    "comments": [
+      "2017-11-10T01:42:46Z",
+      "2017-11-11T04:22:48Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 72,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Spatial audio/ambisonics",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/72",
+    "moved": 0,
+    "updatedAt": "2017-04-23T02:28:09Z",
+    "lastActiveAt": "2017-04-23T02:28:09Z",
+    "assignees": [],
+    "comments": [
+      "2017-04-04T03:01:34Z",
+      "2017-04-23T02:28:09Z"
+    ],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 17,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Vocabularies for exchanging output of Machine Learning, NLP etc. ",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/17",
+    "moved": 0,
+    "updatedAt": "2017-07-13T19:38:21Z",
+    "lastActiveAt": "2017-07-13T19:38:21Z",
+    "assignees": [],
+    "comments": [
+      "2016-10-18T08:21:48Z",
+      "2017-04-07T13:33:18Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 62,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Time for fresh thinking about privacy, advertising and loyalty schemes",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/62",
+    "moved": 0,
+    "updatedAt": "2018-06-13T15:12:58Z",
+    "lastActiveAt": "2018-06-13T15:12:58Z",
+    "assignees": [],
+    "comments": [
+      "2017-10-11T07:52:06Z",
+      "2018-06-13T15:12:58Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 106,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Physical Web interactions (e.g., transit, payment)",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/106",
+    "moved": 0,
+    "updatedAt": "2018-02-14T16:35:48Z",
+    "lastActiveAt": "2018-02-14T16:35:48Z",
+    "assignees": [],
+    "comments": [
+      "2018-02-14T16:25:36Z",
+      "2018-02-14T16:35:48Z"
+    ],
+    "labels": [
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      },
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 82,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Detection of incognito / private browsing mode",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/82",
+    "moved": 0,
+    "updatedAt": "2019-06-18T12:28:59Z",
+    "lastMovedAt": "2017-05-26T15:33:48Z",
+    "lastActiveAt": "2019-06-18T12:28:59Z",
+    "assignees": [
+      "Samuel Weiler"
+    ],
+    "comments": [
+      "2018-04-02T19:00:08Z",
+      "2019-06-18T12:28:59Z"
+    ],
+    "labels": [
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 56,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "accessibility support data",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/56",
+    "moved": 0,
+    "updatedAt": "2017-09-25T11:12:42Z",
+    "lastActiveAt": "2017-09-25T11:12:42Z",
+    "assignees": [
+      "Shadi Abou-Zahra"
+    ],
+    "comments": [
+      "2017-01-12T09:44:08Z",
+      "2017-01-12T13:39:32Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      }
+    ]
+  },
+  {
+    "number": 134,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Chatbots",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/134",
+    "moved": 0,
+    "updatedAt": "2019-02-02T10:18:56Z",
+    "lastMovedAt": "2018-07-20T07:51:41Z",
+    "lastActiveAt": "2019-02-02T10:18:56Z",
+    "assignees": [],
+    "comments": [
+      "2018-07-20T09:25:56Z",
+      "2018-09-18T13:49:35Z"
+    ],
+    "labels": [
+      {
+        "color": "a7c7f2",
+        "name": "AI"
+      },
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      }
+    ]
+  },
+  {
+    "number": 98,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Authoring Tool Accessibility",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/98",
+    "moved": 0,
+    "updatedAt": "2018-04-11T19:16:09Z",
+    "lastActiveAt": "2018-04-11T19:16:09Z",
+    "assignees": [],
+    "comments": [
+      "2018-04-11T19:16:08Z"
+    ],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 186,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Robots Exclusion Protocol (REP) \"robots.txt\" standardization",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/186",
+    "moved": 1,
+    "updatedAt": "2019-07-09T18:39:28Z",
+    "lastMovedAt": "2019-07-03T13:37:08Z",
+    "lastActiveAt": "2019-07-09T18:39:28Z",
+    "assignees": [],
+    "comments": [
+      "2019-07-09T18:39:28Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 167,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Scroll-linked animations",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/167",
+    "moved": 0,
+    "updatedAt": "2019-05-14T13:10:37Z",
+    "lastMovedAt": "2019-02-05T14:22:48Z",
+    "lastActiveAt": "2019-05-14T13:10:37Z",
+    "assignees": [],
+    "comments": [
+      "2019-05-14T13:10:37Z"
+    ],
+    "labels": [
+      {
+        "color": "db756f",
+        "name": "CSS"
+      }
+    ]
+  },
+  {
+    "number": 69,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Container Queries",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/69",
+    "moved": 0,
+    "updatedAt": "2017-02-14T22:01:48Z",
+    "lastActiveAt": "2017-02-14T22:01:48Z",
+    "assignees": [],
+    "comments": [
+      "2017-02-14T22:01:48Z"
+    ],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 61,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Linked Data validation and transformation",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/61",
+    "moved": 0,
+    "updatedAt": "2017-04-23T23:16:44Z",
+    "lastActiveAt": "2017-04-23T23:16:44Z",
+    "assignees": [],
+    "comments": [
+      "2017-01-17T09:10:15Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 29,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Graph processing & Querying",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/29",
+    "moved": 0,
+    "updatedAt": "2016-10-20T10:05:51Z",
+    "lastActiveAt": "2016-10-20T10:05:51Z",
+    "assignees": [],
+    "comments": [
+      "2016-10-20T10:05:51Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 176,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Reduce fingerprinting on the Web",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/176",
+    "moved": 1,
+    "updatedAt": "2019-05-03T17:56:39Z",
+    "lastMovedAt": "2019-04-26T16:36:43Z",
+    "lastActiveAt": "2019-05-03T17:56:39Z",
+    "assignees": [],
+    "comments": [
+      "2019-05-03T17:56:05Z"
+    ],
+    "labels": [
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      }
+    ]
+  },
+  {
+    "number": 36,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Digital Receipts",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/36",
+    "moved": 0,
+    "updatedAt": "2017-01-25T20:31:00Z",
+    "lastActiveAt": "2017-01-25T20:31:00Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [
+      "2017-01-25T20:31:00Z"
+    ],
+    "labels": [
+      {
+        "color": "5319e7",
+        "name": "E-Commerce"
+      },
+      {
+        "color": "0e8a16",
+        "name": "Payments"
+      }
+    ]
+  },
+  {
+    "number": 74,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Mixed Reality Service",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/74",
+    "moved": 0,
+    "updatedAt": "2017-04-06T12:19:17Z",
+    "lastMovedAt": "2017-04-06T12:18:48Z",
+    "lastActiveAt": "2017-04-06T12:19:17Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      },
+      {
+        "color": "f9d0c4",
+        "name": "Web of Things"
+      }
+    ]
+  },
+  {
+    "number": 90,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "JS hooks for media codecs",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/90",
+    "moved": 0,
+    "updatedAt": "2017-07-11T12:47:22Z",
+    "lastActiveAt": "2017-07-11T12:47:22Z",
+    "assignees": [
+      "François Daoust",
+      "Chris Lilley"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 85,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "360° video rendering",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/85",
+    "moved": 0,
+    "updatedAt": "2017-06-06T15:31:12Z",
+    "lastActiveAt": "2017-06-06T15:31:12Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 132,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Media worklet",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/132",
+    "moved": 0,
+    "updatedAt": "2018-06-26T11:49:26Z",
+    "lastMovedAt": "2018-06-26T11:50:20Z",
+    "lastActiveAt": "2018-06-26T11:50:20Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 165,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Badging API",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/165",
+    "moved": 0,
+    "updatedAt": "2019-01-08T16:32:21Z",
+    "lastMovedAt": "2019-01-11T11:23:47Z",
+    "lastActiveAt": "2019-01-11T11:23:47Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 166,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Display locking",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/166",
+    "moved": 0,
+    "updatedAt": "2019-01-08T16:36:05Z",
+    "lastMovedAt": "2019-01-11T11:23:41Z",
+    "lastActiveAt": "2019-01-11T11:23:41Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 187,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Telegram Animated Stickers format",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/187",
+    "moved": 1,
+    "updatedAt": "2019-07-08T15:13:15Z",
+    "lastMovedAt": "2019-07-08T15:12:04Z",
+    "lastActiveAt": "2019-07-08T15:13:15Z",
+    "assignees": [],
+    "comments": [],
+    "labels": []
+  },
+  {
+    "number": 136,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "User confidence signals /EAT",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/136",
+    "moved": 0,
+    "updatedAt": "2018-07-31T13:08:36Z",
+    "lastActiveAt": "2018-07-31T13:08:36Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "fbca04",
+        "name": "Privacy"
+      },
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 105,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Synchronized Multimedia for Publications",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/105",
+    "moved": 0,
+    "updatedAt": "2018-03-06T15:13:36Z",
+    "lastMovedAt": "2018-01-08T14:23:49Z",
+    "lastActiveAt": "2018-03-06T15:13:36Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      },
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 101,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Call session API for WebRTC apps",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/101",
+    "moved": 0,
+    "updatedAt": "2017-10-12T13:23:42Z",
+    "lastMovedAt": "2017-10-11T07:25:46Z",
+    "lastActiveAt": "2017-10-12T13:23:42Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  },
+  {
+    "number": 57,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "use cases for WoT accessibility",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/57",
+    "moved": 0,
+    "updatedAt": "2016-12-06T09:02:52Z",
+    "lastActiveAt": "2016-12-06T09:02:52Z",
+    "assignees": [
+      "Shadi Abou-Zahra"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      }
+    ]
+  },
+  {
+    "number": 157,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "WebHID",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/157",
+    "moved": 0,
+    "updatedAt": "2018-11-14T08:21:30Z",
+    "lastMovedAt": "2018-11-14T08:21:53Z",
+    "lastActiveAt": "2018-11-14T08:21:53Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 35,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Browsers and the Web of Things",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/35",
+    "moved": 0,
+    "updatedAt": "2016-11-03T16:29:06Z",
+    "lastMovedAt": "2017-10-11T07:26:19Z",
+    "lastActiveAt": "2017-10-11T07:26:19Z",
+    "assignees": [
+      "Dave Raggett"
+    ],
+    "comments": [],
+    "labels": []
+  },
+  {
+    "number": 99,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "EARL",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/99",
+    "moved": 0,
+    "updatedAt": "2017-09-25T11:28:19Z",
+    "lastActiveAt": "2017-09-25T11:28:19Z",
+    "assignees": [
+      "Shadi Abou-Zahra"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "fef2c0",
+        "name": "Accessibility"
+      },
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 141,
+    "quadrant": 0,
+    "ring": 4,
+    "label": "Writable files",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/141",
+    "moved": 0,
+    "updatedAt": "2018-09-13T08:19:33Z",
+    "lastMovedAt": "2018-09-13T08:20:13Z",
+    "lastActiveAt": "2018-09-13T08:20:13Z",
+    "assignees": [
+      "Michael[tm] Smith"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      }
+    ]
+  },
+  {
+    "number": 114,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "CityJSON",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/114",
+    "moved": -1,
+    "updatedAt": "2019-06-24T15:03:29Z",
+    "lastMovedAt": "2019-06-24T13:36:19Z",
+    "lastActiveAt": "2019-06-24T15:03:29Z",
+    "assignees": [
+      "François Daoust"
+    ],
+    "comments": [
+      "2018-03-14T20:36:58Z",
+      "2018-07-03T06:28:32Z",
+      "2018-10-22T12:42:25Z",
+      "2019-06-24T13:36:11Z",
+      "2019-06-24T15:03:29Z"
+    ],
+    "labels": [
+      {
+        "color": "057553",
+        "name": "Geospatial"
+      }
+    ]
+  },
+  {
+    "number": 7,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Hardware-Based Secure Services",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/7",
+    "moved": 0,
+    "updatedAt": "2017-03-07T16:28:04Z",
+    "lastMovedAt": "2017-07-12T12:42:17Z",
+    "lastActiveAt": "2017-07-12T12:42:17Z",
+    "assignees": [
+      "Wendy Seltzer"
+    ],
+    "comments": [
+      "2016-11-29T10:43:41Z",
+      "2017-03-07T16:28:04Z"
+    ],
+    "labels": [
+      {
+        "color": "d93f0b",
+        "name": "Security"
+      }
+    ]
+  },
+  {
+    "number": 40,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Music Notation",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/40",
+    "moved": 0,
+    "updatedAt": "2017-03-20T18:11:22Z",
+    "lastMovedAt": "2018-08-14T13:20:15Z",
+    "lastActiveAt": "2018-08-14T13:20:15Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2017-03-20T18:10:29Z"
+    ],
+    "labels": []
+  },
+  {
+    "number": 41,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Publication Object Model",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/41",
+    "moved": 0,
+    "updatedAt": "2016-11-15T16:42:52Z",
+    "lastMovedAt": "2018-06-12T13:20:12Z",
+    "lastActiveAt": "2018-06-12T13:20:12Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [
+      "2016-11-15T16:41:39Z"
+    ],
+    "labels": [
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 16,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Commission on research data standards",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/16",
+    "moved": 0,
+    "updatedAt": "2017-07-13T19:38:38Z",
+    "lastMovedAt": "2018-06-20T20:50:58Z",
+    "lastActiveAt": "2018-06-20T20:50:58Z",
+    "assignees": [],
+    "comments": [
+      "2017-04-07T13:35:52Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 75,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Temporal and probabilistic annotations for RDF",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/75",
+    "moved": 0,
+    "updatedAt": "2019-03-28T10:20:34Z",
+    "lastMovedAt": "2018-06-12T13:19:48Z",
+    "lastActiveAt": "2019-03-28T10:20:34Z",
+    "assignees": [],
+    "comments": [
+      "2019-03-28T10:20:34Z"
+    ],
+    "labels": [
+      {
+        "color": "d4c5f9",
+        "name": "Data"
+      }
+    ]
+  },
+  {
+    "number": 42,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Scholarly HTML",
+    "active": true,
+    "link": "https://github.com/w3c/strategy/issues/42",
+    "moved": 0,
+    "updatedAt": "2016-11-15T16:46:24Z",
+    "lastMovedAt": "2018-06-12T13:19:50Z",
+    "lastActiveAt": "2018-06-12T13:19:50Z",
+    "assignees": [
+      "Ivan Herman"
+    ],
+    "comments": [],
+    "labels": [
+      {
+        "color": "1d76db",
+        "name": "Publishing"
+      }
+    ]
+  },
+  {
+    "number": 53,
+    "quadrant": 0,
+    "ring": 5,
+    "label": "Digital Ink",
+    "active": false,
+    "link": "https://github.com/w3c/strategy/issues/53",
+    "moved": 0,
+    "updatedAt": "2016-11-29T15:08:12Z",
+    "lastMovedAt": "2018-06-20T20:51:11Z",
+    "lastActiveAt": "2018-06-20T20:51:11Z",
+    "assignees": [],
+    "comments": [],
+    "labels": [
+      {
+        "color": "0052cc",
+        "name": "Core"
+      },
+      {
+        "color": "cc317c",
+        "name": "Media"
+      }
+    ]
+  }
+]
