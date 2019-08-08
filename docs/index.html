@@ -27,8 +27,7 @@
 
 <script>
   let domains = [];
-fetch("domains.json").then(r=>r.json()).then(d => domains = d)
-  .then(() => fetch("radar.json")).then(r => r.json()).then(entries =>
+fetch("radar.json").then(r => r.json()).then(entries =>
   radar_visualization({
   svg_id: "radar",
   width: 1000,

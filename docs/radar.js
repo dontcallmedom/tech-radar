@@ -30,10 +30,17 @@ const durationColor = (d1, d2) => {
 
 
 const contrastedTextColor = bgcolor => {
-  bg_rgb = parseInt('0x' + bgcolor.slice(1));
-  bg_r = (bg_rgb >> 16) & 0xff;
-  bg_g = (bg_rgb >>  8) & 0xff;
-  bg_b = (bg_rgb >>  0) & 0xff;
+  let bg_r, bg_g, bg_b;
+  if (bgcolor.match(/^#[0-9a-f]{6}/)) {
+    const bg_rgb = parseInt('0x' + bgcolor.slice(1));
+    bg_r = (bg_rgb >> 16) & 0xff;
+    bg_g = (bg_rgb >>  8) & 0xff;
+    bg_b = (bg_rgb >>  0) & 0xff;
+  } else if (bgcolor.match(/^rgb\(/)) {
+    [bg_r, bg_g, bg_b] = bgcolor.split(',').map(x => parseInt(x.replace(/[^0-9]/g, ''), 10));
+  } else {
+    console.error("could not parse color " + bgcolor);
+  }
   luma = 0.2126 * bg_r + 0.7152 * bg_g + 0.0722 * bg_b ;// ITU-R BT.709
   if (luma < 128)
     return 'ffffff';
@@ -254,28 +261,9 @@ function radar_visualization(config) {
 
   // draw rings
   for (var i = 0; i < rings.length; i++) {
-    grid.append("circle")
-      .attr("cx", 0)
-      .attr("cy", 0)
-      .attr("r", rings[i].radius)
-      .style("fill", "none")
-      .style("stroke", config.colors.grid)
-      .style("stroke-width", 1);
-    if (true || config.print_layout) {
-      grid.append("text")
-        .text(config.rings[i].name)
-        .attr("y", rings[i].radius - 20)
-        .attr("text-anchor", "left")
-        .style("fill", "#a5a5a5")
-        .style("font-family", "Arial, Helvetica")
-        .style("font-size", 12)
-        .style("font-weight", "bold")
-        .style("pointer-events", "none")
-        .style("user-select", "none");
-    }
   }
 
-  function legend_transform(quadrant, ring, index=null) {
+ function legend_transform(quadrant, ring, index=null) {
     var dx = ring < 2 ? 0 : (ring < 4 ? 120 : 240);
     var dy = (index == null ? -16 : index * 12);
     if (ring % 2 === 1) {
@@ -545,6 +533,8 @@ function radar_visualization(config) {
         .style("user-select", "none");
     }
   });
+
+  const labels = [...new Set([].concat(...config.entries.map(e => e.labels.map(l => l.name))).filter(l => !l.match(/review/i)))].sort();
 
   var control = document.getElementById("control");
   const toggleLab = document.createElement("label");
