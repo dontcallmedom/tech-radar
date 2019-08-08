@@ -294,6 +294,7 @@ function radar_visualization(config) {
     radar.append("text")
       .attr("transform", translate(title_offset.x, title_offset.y))
       .text(config.title)
+      .attr("aria-role", "heading")
       .style("font-family", "Arial, Helvetica")
       .style("font-size", "34");
 
@@ -308,14 +309,6 @@ function radar_visualization(config) {
     // legend
     var legend = radar.append("g");
     for (var quadrant = 0; quadrant < quadrants.length; quadrant++) {
-      legend.append("text")
-        .attr("transform", translate(
-          legend_offset[quadrant].x,
-          legend_offset[quadrant].y - 45
-        ))
-        .text(config.quadrants[quadrant].name)
-        .style("font-family", "Arial, Helvetica")
-        .style("font-size", "18");
       if (config.print_layout) {
       for (var ring = 0; ring < rings.length; ring++) {
         legend.append("text")
@@ -368,7 +361,9 @@ function radar_visualization(config) {
 
   function showBubble(d) {
     if (true || d.active || config.print_layout) {
-      d3.select(this).attr("aria-labelledby", "bubbletext");
+      d3.select(this)
+        .attr("aria-labelledby", "bubbletext")
+        .attr("aria-controls", "desc bubbletext");
       var tooltip = d3.select("#bubble text")
         .text(d.label);
       var bbox = tooltip.node().getBBox();
@@ -388,7 +383,8 @@ function radar_visualization(config) {
   }
 
   function hideBubble(d) {
-    d3.select(this).attr("aria-labelledby", null);
+    d3.select(this).attr("aria-labelledby", null)
+      .attr("aria-controls", null);
     var bubble = d3.select("#bubble")
       .attr("transform", translate(0,0))
         .style("opacity", 0);
@@ -436,12 +432,58 @@ function radar_visualization(config) {
     legendItem.removeAttribute("fill");
   }
 
+  var q = rink.selectAll(".quadrant")
+    .data(Object.keys(segmented))
+    .enter()
+    .append("g")
+    .attr("aria-role", "region")
+    .attr("aria-labelledby", d => "quadrant" + d);
+
+  q.append("text")
+    .attr("transform", d => translate(
+      legend_offset[d].x,
+      legend_offset[d].y - 45
+    ))
+    .text(d => config.quadrants[d].name)
+    .attr("aria-role", "heading")
+    .attr("id", d => "quandrant" + d )
+    .style("font-family", "Arial, Helvetica")
+    .style("font-size", "18");
+
+  var r = q.selectAll(".ring")
+      .data(d => Object.keys(segmented[d]))
+      .enter()
+      .append("g")
+      .attr("aria-role", "region")
+      .attr("aria-labelledby", d => "ring" + d);
+  r.append("circle")
+    .attr("cx", 0)
+    .attr("cy", 0)
+    .attr("r", d => rings[d].radius)
+    .style("fill", "none")
+    .style("stroke", config.colors.grid)
+    .style("stroke-width", 1);
+  r.append("text")
+    .text(d => config.rings[d].name)
+    .attr("id", d => "ring" + d)
+    .attr("aria-role", "heading")
+    .attr("y", d => rings[d].radius - 20)
+    .attr("text-anchor", "left")
+    .style("fill", "#a5a5a5")
+    .style("font-family", "Arial, Helvetica")
+    .style("font-size", 12)
+    .style("font-weight", "bold")
+    .style("pointer-events", "none")
+    .style("user-select", "none");
+
+
   // draw blips on radar
-  var blips = rink.selectAll(".blip")
-    .data(config.entries)
+  var blips = r.selectAll(".blip")
+    .data(function(d) { return segmented[d3.select(this.parentNode).datum()][d]; })
     .enter()
       .append("g")
         .attr("class", "blip")
+        .attr("aria-role", "graphics-symbol img")
         .attr("transform", function(d, i) { return legend_transform(d.quadrant, d.ring, i); })
         .on("focusin", showBubble)
         .on("focusout", hideBubble)
@@ -496,9 +538,9 @@ function radar_visualization(config) {
         .text(blip_text)
         .attr("y", 3)
         .attr("text-anchor", "middle")
-        .style("fill", d => contrastedTextColor(d.color))
+        .style("fill", '#' + contrastedTextColor(d.color))
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", function(d) { return blip_text.length > 2 ? "8" : "9"; })
+        .style("font-size", blip_text.length > 2 ? "8" : "9")
         .style("pointer-events", "none")
         .style("user-select", "none");
     }
@@ -509,6 +551,7 @@ function radar_visualization(config) {
   const toggleInp = document.createElement("input");
   toggleInp.type = "checkbox";
   toggleInp.checked = true;
+  toggleInp.setAttribute("aria-controls", "labels");
   toggleLab.appendChild(toggleInp);
   toggleLab.appendChild(document.createTextNode("Toggle all"));
   control.appendChild(toggleLab);
@@ -518,29 +561,35 @@ function radar_visualization(config) {
                                inp.dispatchEvent(new Event("input"));
                              })
                             );
-  const domainVisibility = {};
-  for (d of domains) {
-    domainVisibility[d] = true;
+  const fieldset = document.createElement("fieldset");
+  fieldset.setAttribute("id", "labels");
+  const leg = document.createElement("legend");
+  leg.textContent = "Filter by label";
+  fieldset.appendChild(leg);
+  const labelVisibility = {};
+  for (d of labels) {
+    labelVisibility[d] = true;
     const lab = document.createElement("label");
     const inp = document.createElement("input");
     inp.type = "checkbox";
     inp.checked = true;
     inp.value = d;
+    inp.setAttribute("aria-controls", "radar");
     lab.appendChild(inp);
     lab.appendChild(document.createTextNode(d + " (" + (config.entries.filter(e => e.labels.find(l => l.name === d)).length)+ ")"));
-    control.appendChild(lab);
+    fieldset.appendChild(lab);
     const bgColor = '#' + config.entries.find(e => (e.labels || []).find(l => l.name === d)).labels.find(l => l.name === d).color;
     lab.style.backgroundColor =  bgColor;
     lab.style.color = contrastedTextColor(bgColor);
     inp.addEventListener("input", e => {
       if (e.target.checked) {
-        domainVisibility[e.target.value] = true;
+        labelVisibility[e.target.value] = true;
       } else {
-        domainVisibility[e.target.value] = false;
+        labelVisibility[e.target.value] = false;
       }
       blips.each(function(b) {
         var blip = d3.select(this);
-        if (b.labels.some(l => Object.keys(domainVisibility).filter(d => domainVisibility[d]).includes(l.name))) {
+        if (b.labels.some(l => Object.keys(labelVisibility).filter(d => labelVisibility[d]).includes(l.name))) {
           blip.attr("style", "visibility: visible");
         } else {
           blip.attr("style", "visibility: hidden");
@@ -567,6 +616,8 @@ function radar_visualization(config) {
 
     });
   }
+  control.appendChild(fieldset);
+
 
 
   // make sure that blips stay inside their segment

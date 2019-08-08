@@ -19,6 +19,7 @@ td {
 }
 .dimmed { opacity: 0.2;}
 #control label { display: block;}
+#control fieldset { margin-left: -0.5em; padding-left: 0;}
 main { display: grid; align-items: start; grid-template-columns: 10em 1fr 15em;}
 .show { display: block;}
 .hide { display: none;}
