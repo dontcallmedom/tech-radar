@@ -536,7 +536,12 @@ function radar_visualization(config) {
   });
 
   const labels = [...new Set([].concat(...config.entries.map(e => e.labels.map(l => l.name))).filter(l => !l.match(/review/i)))].sort();
-
+  labels.push("no label");
+  config.entries.forEach(e => {
+    if (e.labels.filter(l => labels.includes(l.name)).length === 0) {
+      e.labels.push({name: "no label", color: "#ffffff"});
+    }
+  });
   var control = document.getElementById("control");
   const toggleLab = document.createElement("label");
   const toggleInp = document.createElement("input");
@@ -567,20 +572,23 @@ function radar_visualization(config) {
     inp.value = d;
     inp.setAttribute("aria-controls", "radar");
     lab.appendChild(inp);
-    lab.appendChild(document.createTextNode(d + " (" + (config.entries.filter(e => e.labels.find(l => l.name === d)).length)+ ")"));
     fieldset.appendChild(lab);
+    const numberOfEntries = config.entries.filter(e => e.labels.find(l => l.name === d)).length;
     const bgColor = '#' + config.entries.find(e => (e.labels || []).find(l => l.name === d)).labels.find(l => l.name === d).color;
     lab.style.backgroundColor =  bgColor;
     lab.style.color = contrastedTextColor(bgColor);
+    lab.appendChild(document.createTextNode(d + " (" + numberOfEntries + ")"));
+
     inp.addEventListener("input", e => {
       if (e.target.checked) {
         labelVisibility[e.target.value] = true;
       } else {
         labelVisibility[e.target.value] = false;
       }
+      const checkedLabels = Object.keys(labelVisibility).filter(d => labelVisibility[d]);
       blips.each(function(b) {
         var blip = d3.select(this);
-        if (b.labels.some(l => Object.keys(labelVisibility).filter(d => labelVisibility[d]).includes(l.name))) {
+        if (b.labels.some(l => checkedLabels.includes(l.name))) {
           blip.attr("style", "visibility: visible");
         } else {
           blip.attr("style", "visibility: hidden");
