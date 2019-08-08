@@ -539,7 +539,7 @@ function radar_visualization(config) {
   labels.push("no label");
   config.entries.forEach(e => {
     if (e.labels.filter(l => labels.includes(l.name)).length === 0) {
-      e.labels.push({name: "no label", color: "#ffffff"});
+      e.labels.push({name: "no label", color: "ffffff"});
     }
   });
   var control = document.getElementById("control");
@@ -576,7 +576,7 @@ function radar_visualization(config) {
     const numberOfEntries = config.entries.filter(e => e.labels.find(l => l.name === d)).length;
     const bgColor = '#' + config.entries.find(e => (e.labels || []).find(l => l.name === d)).labels.find(l => l.name === d).color;
     lab.style.backgroundColor =  bgColor;
-    lab.style.color = contrastedTextColor(bgColor);
+    lab.style.color = "#" + contrastedTextColor(bgColor);
     lab.appendChild(document.createTextNode(d + " (" + numberOfEntries + ")"));
 
     inp.addEventListener("input", e => {
