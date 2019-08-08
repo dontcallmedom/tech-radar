@@ -284,7 +284,7 @@ function radar_visualization(config) {
       .text(config.title)
       .attr("aria-role", "heading")
       .style("font-family", "Arial, Helvetica")
-      .style("font-size", "34");
+      .style("font-size", "34px");
 
     // footer
     radar.append("text")
@@ -292,7 +292,7 @@ function radar_visualization(config) {
       .text("▲ moved up     ▼ moved down")
       .attr("xml:space", "preserve")
       .style("font-family", "Arial, Helvetica")
-      .style("font-size", "10");
+      .style("font-size", "10px");
 
     // legend
     var legend = radar.append("g");
@@ -303,7 +303,7 @@ function radar_visualization(config) {
           .attr("transform", legend_transform(quadrant, ring))
           .text(config.rings[ring].name)
           .style("font-family", "Arial, Helvetica")
-          .style("font-size", "12")
+          .style("font-size", "12px")
           .style("font-weight", "bold");
         legend.selectAll(".legend" + quadrant + ring)
           .data(segmented[quadrant][ring])
@@ -314,7 +314,7 @@ function radar_visualization(config) {
               .attr("id", function(d, i) { return "legendItem" + d.id; })
               .text(function(d, i) { return d.id + ". " + d.label; })
               .style("font-family", "Arial, Helvetica")
-              .style("font-size", "11")
+              .style("font-size", "11px")
               .on("mouseover", showBubble)
               .on("mouseout", hideBubble);
       }
@@ -436,7 +436,7 @@ function radar_visualization(config) {
     .attr("aria-role", "heading")
     .attr("id", d => "quandrant" + d )
     .style("font-family", "Arial, Helvetica")
-    .style("font-size", "18");
+    .style("font-size", "18px");
 
   var r = q.selectAll(".ring")
       .data(d => Object.keys(segmented[d]))
@@ -459,7 +459,7 @@ function radar_visualization(config) {
     .attr("text-anchor", "left")
     .style("fill", "#a5a5a5")
     .style("font-family", "Arial, Helvetica")
-    .style("font-size", 12)
+    .style("font-size", "12px")
     .style("font-weight", "bold")
     .style("pointer-events", "none")
     .style("user-select", "none");
@@ -528,7 +528,7 @@ function radar_visualization(config) {
         .attr("text-anchor", "middle")
         .style("fill", '#' + contrastedTextColor(d.color))
         .style("font-family", "Arial, Helvetica")
-        .style("font-size", blip_text.length > 2 ? "8" : "9")
+        .style("font-size", blip_text.length > 2 ? "8px" : "9px")
         .style("pointer-events", "none")
         .style("user-select", "none");
     }
